@@ -1,0 +1,15 @@
+#
+# Cantata Test-Level Options
+#
+# Any options set in this file will override the options set in the
+# project-level options file.
+#
+# WARNING: Do not alter this file manually.
+#
+#tool.use=false
+#tool.testid=d78de48e-0407-4a92-9070-a32830f2f396
+"--verbose"
+"--sm:--wrap:calculateAverageTemperature()#monitorTemperature()"
+"--sm:--wrap:updateTemperaturePool()#monitorTemperature()"
+
+#User Section

@@ -1,0 +1,20 @@
+#
+# Cantata Project-Level Options
+#
+# The options set in this file will be inherited by each test in the project.
+#
+# WARNING: Do not alter this file manually.
+#
+#tool.use=true
+#tool.tests=Cantata
+#tool.version=2
+#old.dir=/home/roboima/workspace/jenkins/
+#new.dir=/home/roboima/workspace/jenkins/CantataTest/
+"--analyse"
+"--verbose"
+"--parse:--line_directives"
+"--parse:-W2"
+"--sm:--call_seq_code"
+"--comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11"
+
+#User Section

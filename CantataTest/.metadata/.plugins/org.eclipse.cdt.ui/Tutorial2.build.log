@@ -1,0 +1,7 @@
+16:04:11 **** Clean-only build of configuration Debug for project Tutorial2 ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+"make clean" terminated with exit code 2. Build might be incomplete.
+
+16:04:11 Build Failed. 1 errors, 0 warnings. (took 100ms)
+

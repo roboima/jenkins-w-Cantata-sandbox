@@ -1,0 +1,14 @@
+11:40:44 **** Building Selected Files of configuration Debug for project Tutorial 2 ****
+Info: Internal Builder is used for build
+ipg_comp --optfile ../ipg.cop --comp gcc -I/opt/qa_systems/cantata/inc -O0 -g3 -Wall -c -fmessage-length=0 -o TemperatureMonitor.o ../TemperatureMonitor.c 
+Cantata IPG_COMP v9.1 (c) 2020 QA Systems GmbH 
+Cantata CPPCCD v9.1 (c) 2020 QA Systems GmbH
+Section: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+ - registered as an AUTHORISED PLATFORM
+Processing ../TemperatureMonitor.c
+Cantata CPPI   v9.1 (c) 2020 QA Systems GmbH
+Warning I10840: "/opt/qa_systems/cantata/inc" was specified as both a system and non-system
+include directory -- the non-system entry will be ignored
+
+11:40:44 Build Finished. 0 errors, 0 warnings. (took 138ms)
+

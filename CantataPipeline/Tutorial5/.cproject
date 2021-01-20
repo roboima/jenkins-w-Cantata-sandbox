@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.1419295722">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.1419295722" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="Tutorial 5" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.1419295722" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.1419295722." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1049402199" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.PE64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.Cygwin_PE64;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.SOM;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.MachO64" id="cdt.managedbuild.target.gnu.platform.exe.debug.1706763412" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/Tutorial 5}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.1792069658" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Release"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.136725380" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool command="ipg_comp --optfile ../ipg.cop --comp g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1637330579" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
+								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.1152332159" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.exe.debug.option.debugging.level.1409703766" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --comp gcc" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.465939429" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.529261183" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.exe.debug.option.debugging.level.929055048" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.1792969454" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/qa_systems/cantata/inc"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2067984119" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --link gcc" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.1848143202" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1677293335" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --link g++" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.2071180769" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.1265734683" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.142132019" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/qa_systems/cantata/inc"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.40003213" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.ipl.products.eclipse.cantpp.cdt.external_settings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting>
+						<entry flags="NONE" kind="includePath" name="/opt/qa_systems/cantata/inc"/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="com.qas.cantata.eclipse.bch.harvester_external_settings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting/>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.release.2082979644">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.2082979644" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="Tutorial 5" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.2082979644" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.2082979644." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.355259449" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.PE64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.Cygwin_PE64;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.SOM;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.MachO64" id="cdt.managedbuild.target.gnu.platform.exe.release.1891518889" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/Tutorial 5}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.488479611" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.2079438147" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool command="ipg_comp --optfile ../ipg.cop --comp g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.1684407509" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.986143575" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.exe.release.option.debugging.level.1085535571" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --comp gcc" id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.1370681361" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.1444768459" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.1382819977" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.583285299" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/qa_systems/cantata/inc"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1840243820" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --link gcc" id="cdt.managedbuild.tool.gnu.c.linker.exe.release.578364209" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.78342114" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --link g++" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.696031481" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.2127588182" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.2110286319" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/qa_systems/cantata/inc"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1844655214" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.ipl.products.eclipse.cantpp.cdt.external_settings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting>
+						<entry flags="NONE" kind="includePath" name="/opt/qa_systems/cantata/inc"/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="com.qas.cantata.eclipse.bch.harvester_external_settings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting/>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+		<cconfiguration id="1967715056">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="1967715056" moduleId="org.eclipse.cdt.core.settings" name="Cantata">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.MachO64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.MachO" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.XCOFF32" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE64" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.SOM" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="Tutorial 5" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="1967715056" name="Cantata" parent="cdt.managedbuild.config.gnu.exe.debug">
+					<folderInfo id="1967715056." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.1998564800" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;org.eclipse.cdt.core.PE;org.eclipse.cdt.core.PE64;org.eclipse.cdt.core.Cygwin_PE;org.eclipse.cdt.core.Cygwin_PE64;org.eclipse.cdt.core.XCOFF32;org.eclipse.cdt.core.SOM;org.eclipse.cdt.core.MachO;org.eclipse.cdt.core.MachO64" id="cdt.managedbuild.target.gnu.platform.exe.debug.1059405612" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<builder buildPath="/home/roboima/workspace/jenkins/Tutorial 5" id="com.ipl.products.eclipse.cantpp.testscript.makefiles.builder" keepEnvironmentInBuildfile="false" name="Cantata Project Builder" superClass="com.ipl.products.eclipse.cantpp.testscript.makefiles.builder"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.151973571" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool command="ipg_comp --optfile ../ipg.cop --comp g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.1570101760" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
+								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.839586189" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.exe.debug.option.debugging.level.658085154" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --comp gcc" id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1153009243" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.1312873310" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.exe.debug.option.debugging.level.1668673131" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.460889217" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/qa_systems/cantata/inc"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.510671936" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --link gcc" id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.2038961089" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.303207866" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool command="ipg_comp --optfile ../ipg.cop --link g++" id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.1548570898" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.359357081" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.1157542572" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/opt/qa_systems/cantata/inc"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2134942171" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="com.ipl.products.eclipse.cantpp.cdt.external_settings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting>
+						<entry flags="NONE" kind="includePath" name="/opt/qa_systems/cantata/inc"/>
+					</externalSetting>
+				</externalSettings>
+				<externalSettings containerId="com.qas.cantata.eclipse.bch.harvester_external_settings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting/>
+				</externalSettings>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Tutorial 5.cdt.managedbuild.target.gnu.exe.1623274884" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="1967715056;1967715056.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1153009243;cdt.managedbuild.tool.gnu.c.compiler.input.510671936">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1419295722;cdt.managedbuild.config.gnu.exe.debug.1419295722.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.465939429;cdt.managedbuild.tool.gnu.c.compiler.input.2067984119">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.2082979644;cdt.managedbuild.config.gnu.exe.release.2082979644.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.1370681361;cdt.managedbuild.tool.gnu.c.compiler.input.1840243820">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

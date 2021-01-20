@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.ipl.products.eclipse.cantpp.testscript.ui.launchConfigurationType">
+<booleanAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.TEConfig" value="true"/>
+<stringAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.TestScriptName" value="test_TemperatureMonitor"/>
+<booleanAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.all_tests" value="false"/>
+<booleanAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.clean" value="true"/>
+<stringAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.project" value="Tutorial2"/>
+<booleanAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.run_qac" value="false"/>
+<listAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.selected_tests">
+<listEntry value="test_TemperatureMonitor"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.debug.core.capture_output" value="false"/>
+<booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false"/>
+</launchConfiguration>
