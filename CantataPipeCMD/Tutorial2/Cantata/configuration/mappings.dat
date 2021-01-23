@@ -1,0 +1,4 @@
+# This file maintains a list mapping source files to testscripts in the project
+# and should not be modified manually.
+
+TemperatureMonitor.c => tests/test_TemperatureMonitor/test_TemperatureMonitor.c
