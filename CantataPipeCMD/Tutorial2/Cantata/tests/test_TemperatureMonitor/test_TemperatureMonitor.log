@@ -126,7 +126,7 @@ gcc -DCANTPP_EXT_64BIT_MAX_INT
     test_TemperatureMonitor/TemperatureMonitor.o
     -x
     c
-    /home/roboima/workspace/jenkins/CantataPipeline/Tutorial2/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.ci.sm.c
+    /home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.ci.sm.c
 Compiling (C) ... test_TemperatureMonitor/test_TemperatureMonitor.c -> test_TemperatureMonitor/test_TemperatureMonitor.o
 Cantata CPPCCD v9.1 (c) 2020 QA Systems GmbH
 cppccd --analyse
@@ -255,7 +255,7 @@ gcc -DCANTPP_EXT_64BIT_MAX_INT
     test_TemperatureMonitor/test_TemperatureMonitor.o
     -x
     c
-    /home/roboima/workspace/jenkins/CantataPipeline/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ci.sm.c
+    /home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ci.sm.c
 Linking (C) test_TemperatureMonitor/test_TemperatureMonitor.exe ...
 Cantata CPPCCD v9.1 (c) 2020 QA Systems GmbH
 cppccd --analyse
@@ -303,10 +303,10 @@ Running test_TemperatureMonitor ...
 = Test Description: TemperatureMonitor                                    =
 =         Log File: test_TemperatureMonitor.ctr                           =
 =    Configuration: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11            =
-=     Test Started: Mon Jan 18 16:20:29 2021                              =
+=     Test Started: Sun Jan 24 13:29:54 2021                              =
 ===========================================================================
 ==================================================================================
-= Test Finished: Mon Jan 18 16:20:29 2021                                        =
+= Test Finished: Sun Jan 24 13:29:54 2021                                        =
 =--------------------------------------------------------------------------------=
 = Test                        Script  Checks  Checks  Checks  Call Seq     TEST  =
 = Case                        Errors  Failed  Passed  Warned  Failures    RESULT =
