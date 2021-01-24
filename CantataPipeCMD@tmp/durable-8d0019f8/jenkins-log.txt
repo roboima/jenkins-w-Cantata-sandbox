@@ -11,12 +11,12 @@ Changes not staged for commit:
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
-	deleted:    ../CantataPipeCMD@tmp/durable-0cf9cf0e/jenkins-log.txt
-	deleted:    ../CantataPipeCMD@tmp/durable-0cf9cf0e/script.sh
+	deleted:    ../CantataPipeCMD@tmp/durable-180897ed/jenkins-log.txt
+	deleted:    ../CantataPipeCMD@tmp/durable-180897ed/script.sh
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	../CantataPipeCMD@tmp/durable-180897ed/
+	../CantataPipeCMD@tmp/durable-8d0019f8/
 
 no changes added to commit (use "git add" and/or "git commit -a")
