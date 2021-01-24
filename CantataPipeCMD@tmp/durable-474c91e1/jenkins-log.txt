@@ -6,19 +6,18 @@ Your branch is up to date with 'origin/main'.
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
-  (commit or discard the untracked or modified content in submodules)
 
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/make_log.dat
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
-	deleted:    ../CantataPipeCMD@tmp/durable-e125e2f7/jenkins-log.txt
-	deleted:    ../CantataPipeCMD@tmp/durable-e125e2f7/script.sh
-	modified:   temp (modified content, untracked content)
+	deleted:    ../CantataPipeCMD@tmp/durable-e026e1ed/jenkins-log.txt
+	deleted:    ../CantataPipeCMD@tmp/durable-e026e1ed/script.sh
+	deleted:    temp
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	../CantataPipeCMD@tmp/durable-e026e1ed/
+	../CantataPipeCMD@tmp/durable-474c91e1/
 
 no changes added to commit (use "git add" and/or "git commit -a")
