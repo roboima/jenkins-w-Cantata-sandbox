@@ -9,5 +9,5 @@
                     git commit -m "Test Case Update: Run Completed"
                     git push -u origin main
                     # history
-                    echo 'Success!'
+                    echo 'Ropository succesfully updated'
                 

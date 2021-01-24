@@ -10,7 +10,7 @@
 
 #004c=    Configuration: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11            =
 
-#004c=     Test Started: Sun Jan 24 15:46:47 2021                              =
+#004c=     Test Started: Sun Jan 24 15:56:35 2021                              =
 
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
@@ -220,7 +220,7 @@
 8069
 #0011COVERAGE RULE SET
 9066
-#0053= Test Finished: Sun Jan 24 15:46:47 2021                                        =
+#0053= Test Finished: Sun Jan 24 15:56:35 2021                                        =
 
 #0053= test_monitorTemperature          0       0       0       0         0      PASS =
 
