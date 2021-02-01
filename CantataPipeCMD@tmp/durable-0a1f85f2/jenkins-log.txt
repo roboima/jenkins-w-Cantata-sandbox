@@ -9,12 +9,16 @@ Changes not staged for commit:
 
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/.metadata/.plugins/org.eclipse.cdt.core/.log
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/make_errors.txt
-	deleted:    ../CantataPipeCMD@tmp/durable-215988e0/jenkins-log.txt
-	deleted:    ../CantataPipeCMD@tmp/durable-215988e0/script.sh
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/make_log.dat
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
+	deleted:    ../CantataPipeCMD@tmp/durable-d8f8884d/jenkins-log.txt
+	deleted:    ../CantataPipeCMD@tmp/durable-d8f8884d/script.sh
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	../CantataPipeCMD@tmp/durable-d8f8884d/
+	../CantataPipeCMD@tmp/durable-0a1f85f2/
 
 no changes added to commit (use "git add" and/or "git commit -a")
