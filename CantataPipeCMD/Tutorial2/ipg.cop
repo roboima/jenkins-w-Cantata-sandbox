@@ -9,7 +9,7 @@
 #tool.tests=Cantata
 #tool.version=2
 #tool.server=http://192.168.27.29:8085/cantata
-#tool.servercontainerid=203
+#tool.servercontainerid=204
 #old.dir=/home/roboima/workspace/jenkins/
 #new.dir=/home/roboima/workspace/jenkins/CantataTest/
 "--analyse"

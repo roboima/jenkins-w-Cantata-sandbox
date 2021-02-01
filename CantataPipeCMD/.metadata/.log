@@ -2217,3 +2217,278 @@ java.io.FileNotFoundException: /home/roboima/workspace/jenkins/CantataPipeCMD/.m
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-02-01 18:28:03.477 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-02-01 18:28:08.868
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2021-02-01 18:28:09.488
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-02-01 18:28:09.488
+!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
+
+!ENTRY org.eclipse.ui 2 0 2021-02-01 18:28:09.977
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-02-01 18:28:09.977
+!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 18:28:15.486
+!MESSAGE Error: 1
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.eclipse.cdt.utils.xcoff.XCoff32.isXCOFF32Header(XCoff32.java:794)
+	at org.eclipse.cdt.utils.xcoff.parser.XCOFF32Parser.isBinary(XCOFF32Parser.java:96)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:784)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:364)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:934)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface 2 0 2021-02-01 18:28:15.622
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-01 18:28:15.622
+!MESSAGE A conflict occurred for ALT+CTRL+S:
+Binding(ALT+CTRL+S,
+	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScript,Test Script Wizard,
+		,
+		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10664c3d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
+Binding(ALT+CTRL+S,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.sort.lines,Sort Lines,
+		Sort selected lines alphabetically,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79a92277,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-01 18:28:15.622
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScriptUsingHeaderFile,TDD Test Script,
+		,
+		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7712df76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Opens the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@e98adb2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2c3d0ff8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:32.726
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_error:error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:32.730
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_fatal:fatal error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:32.738
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format:@F:@L: @S: @C - @M
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:32.740
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_info:info
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:32.742
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_warn:warning
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:33.194
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_error:error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:33.195
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_fatal:fatal error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:33.198
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format:@F:@L: @S: @C - @M
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:33.205
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_info:info
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:33.209
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_warn:warning
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-02-01 18:29:33.864
+!MESSAGE An internal error occurred during: "Searching for Binaries (Tutorial2)".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.eclipse.cdt.utils.xcoff.XCoff32.isXCOFF32Header(XCoff32.java:794)
+	at org.eclipse.cdt.utils.xcoff.parser.XCOFF32Parser.isBinary(XCOFF32Parser.java:96)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:784)
+	at org.eclipse.cdt.internal.core.model.BinaryRunner$Visitor.visit(BinaryRunner.java:229)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.resources.Resource$$Lambda$489/906923793.visitElement(Unknown Source)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.cdt.internal.core.model.BinaryRunner$1.run(BinaryRunner.java:124)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.288
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_error:error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.291
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_fatal:fatal error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.294
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format:@F:@L: @S: @C - @M
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.296
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_info:info
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.298
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_warn:warning
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.596
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_error:error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.599
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_fatal:fatal error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.601
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format:@F:@L: @S: @C - @M
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.604
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_info:info
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:29:59.605
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_warn:warning
+
+!ENTRY org.eclipse.core.resources 4 566 2021-02-01 18:33:15.568
+!MESSAGE Could not save master table to file '/home/roboima/workspace/jenkins/CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /home/roboima/workspace/jenkins/CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1265)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.504
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_error:error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.509
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_fatal:fatal error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.511
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format:@F:@L: @S: @C - @M
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.519
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_info:info
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.521
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_warn:warning
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.842
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_error:error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.844
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_fatal:fatal error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.846
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format:@F:@L: @S: @C - @M
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.848
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_info:info
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 18:34:18.850
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_warn:warning
+
+!ENTRY org.eclipse.core.resources 4 566 2021-02-01 18:39:19.767
+!MESSAGE Could not save master table to file '/home/roboima/workspace/jenkins/CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources'.
+!STACK 0
+java.io.FileNotFoundException: /home/roboima/workspace/jenkins/CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources (Permission denied)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:133)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:48)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:44)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1265)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

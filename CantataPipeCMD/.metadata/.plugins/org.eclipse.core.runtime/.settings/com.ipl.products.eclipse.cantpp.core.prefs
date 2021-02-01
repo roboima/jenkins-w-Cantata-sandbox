@@ -1,2 +1,3 @@
+com.ipl.products.eclipse.cantpp.core.server_address=http\://192.168.27.29\:8085/cantata
 com.ipl.products.eclipse.cantpp.core.server_enable=true
 eclipse.preferences.version=1
