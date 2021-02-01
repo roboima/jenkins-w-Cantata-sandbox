@@ -1,7 +1,6 @@
-16:04:11 **** Clean-only build of configuration Debug for project Tutorial2 ****
-make clean 
-make: *** No rule to make target 'clean'.  Stop.
-"make clean" terminated with exit code 2. Build might be incomplete.
+18:51:59 **** Cleaning Selected Files of configuration Debug for project Tutorial2 ****
+Info: Internal Builder is used for build
+Debug/TemperatureMonitor.o deleted.
 
-16:04:11 Build Failed. 1 errors, 0 warnings. (took 100ms)
+18:51:59 Build Finished. 0 errors, 0 warnings. (took 51ms)
 

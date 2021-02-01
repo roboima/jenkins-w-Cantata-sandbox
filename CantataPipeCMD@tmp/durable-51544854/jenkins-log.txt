@@ -10,34 +10,33 @@ Changes not staged for commit:
 	modified:   ../CantataPipeCMD/.metadata/.log
 	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.core/.log
 	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.core/Tutorial2.1609956851676.pdom
-	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.markers
-	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.markers.snap
-	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.syncinfo.snap
-	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial5/.markers.snap
-	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial5/.syncinfo.snap
-	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
-	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/11.tree
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.ui/Tutorial2.build.log
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/12.tree
 	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
-	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/11.snap
-	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.ipl.products.eclipse.cantpp.core.prefs
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.launchbar.core.prefs
 	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
 	modified:   ../CantataPipeCMD/.metadata/version.ini
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_report.html
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_report.xml
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_summary.html
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/.metadata/.plugins/org.eclipse.cdt.core/.log
-	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/make_log.dat
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
 	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
-	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
-	modified:   ../CantataPipeCMD/Tutorial2/ipg.cop
-	deleted:    ../CantataPipeCMD@tmp/durable-8c375c6b/jenkins-log.txt
-	deleted:    ../CantataPipeCMD@tmp/durable-8c375c6b/script.sh
+	deleted:    ../CantataPipeCMD@tmp/durable-f0920db5/jenkins-log.txt
+	deleted:    ../CantataPipeCMD@tmp/durable-f0920db5/script.sh
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/12.tree
-	../CantataPipeCMD@tmp/durable-f0920db5/
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.indexes/b6/
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/13.tree
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/com.ipl.products.eclipse.cantpp.testscript.prefs
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.ui.editors/
+	../CantataPipeCMD/Tutorial2/Debug/
+	../CantataPipeCMD@tmp/durable-51544854/
 
 no changes added to commit (use "git add" and/or "git commit -a")
