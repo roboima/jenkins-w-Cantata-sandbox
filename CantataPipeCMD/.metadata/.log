@@ -1302,3 +1302,416 @@ Binding(ALT+CTRL+H,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2021-02-01 15:40:08.665 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2021-02-01 15:40:18.296
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-02-01 15:40:18.296
+!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
+
+!ENTRY org.eclipse.ui 2 0 2021-02-01 15:40:18.719
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-02-01 15:40:18.719
+!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
+
+!ENTRY org.eclipse.jface 2 0 2021-02-01 15:40:22.208
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-01 15:40:22.208
+!MESSAGE A conflict occurred for ALT+CTRL+S:
+Binding(ALT+CTRL+S,
+	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScript,Test Script Wizard,
+		,
+		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@432b883,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
+Binding(ALT+CTRL+S,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.sort.lines,Sort Lines,
+		Sort selected lines alphabetically,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f09c282,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-01 15:40:22.208
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScriptUsingHeaderFile,TDD Test Script,
+		,
+		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@560c3758,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Opens the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@43414b88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52a605c3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-02-01 15:41:53.355
+!MESSAGE An internal error occurred during: "Searching for Binaries (Tutorial2)".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.eclipse.cdt.utils.xcoff.XCoff32.isXCOFF32Header(XCoff32.java:794)
+	at org.eclipse.cdt.utils.xcoff.parser.XCOFF32Parser.isBinary(XCOFF32Parser.java:96)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:784)
+	at org.eclipse.cdt.internal.core.model.BinaryRunner$Visitor.visit(BinaryRunner.java:229)
+	at org.eclipse.core.internal.resources.Resource.lambda$0(Resource.java:85)
+	at org.eclipse.core.internal.resources.Resource$$Lambda$470/1049592519.visitElement(Unknown Source)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:90)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:135)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:55)
+	at org.eclipse.cdt.internal.core.model.BinaryRunner$1.run(BinaryRunner.java:124)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 2 2021-02-01 15:41:53.374
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.cdt.core".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.eclipse.cdt.utils.xcoff.XCoff32.isXCOFF32Header(XCoff32.java:794)
+	at org.eclipse.cdt.utils.xcoff.parser.XCOFF32Parser.isBinary(XCOFF32Parser.java:96)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:784)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChild(CContainer.java:219)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChildren(CContainer.java:185)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:157)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:429)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:307)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:297)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:526)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.collectSources(DeltaAnalyzer.java:125)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:81)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:52)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:52)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:52)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:52)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.analyzeDelta(DeltaAnalyzer.java:43)
+	at org.eclipse.cdt.internal.core.pdom.CModelListener.processProjectDelta(CModelListener.java:118)
+	at org.eclipse.cdt.internal.core.pdom.CModelListener.processDelta(CModelListener.java:99)
+	at org.eclipse.cdt.internal.core.pdom.CModelListener.processDelta(CModelListener.java:87)
+	at org.eclipse.cdt.internal.core.pdom.CModelListener.elementChanged(CModelListener.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelManager$2.run(CModelManager.java:1196)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.cdt.internal.core.model.CModelManager.notifyListeners(CModelManager.java:1187)
+	at org.eclipse.cdt.internal.core.model.CModelManager.firePostChangeDelta(CModelManager.java:1143)
+	at org.eclipse.cdt.internal.core.model.CModelManager.fire(CModelManager.java:1108)
+	at org.eclipse.cdt.internal.core.model.CModelManager.fire(CModelManager.java:1065)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:940)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1563)
+	at com.ipl.products.eclipse.cantpp.core.AbstractProjectLoadJob.refreshProject(AbstractProjectLoadJob.java:325)
+	at com.ipl.products.eclipse.cantpp.core.TestScriptFilesLoadJob.run(TestScriptFilesLoadJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 15:41:53.384
+!MESSAGE Error: 1
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.eclipse.cdt.utils.xcoff.XCoff32.isXCOFF32Header(XCoff32.java:794)
+	at org.eclipse.cdt.utils.xcoff.parser.XCOFF32Parser.isBinary(XCOFF32Parser.java:96)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:784)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChild(CContainer.java:219)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChildren(CContainer.java:185)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:157)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:429)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:307)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:297)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:526)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.collectSources(DeltaAnalyzer.java:125)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:81)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:52)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:52)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:52)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.processDelta(DeltaAnalyzer.java:52)
+	at org.eclipse.cdt.internal.core.pdom.indexer.DeltaAnalyzer.analyzeDelta(DeltaAnalyzer.java:43)
+	at org.eclipse.cdt.internal.core.pdom.CModelListener.processProjectDelta(CModelListener.java:118)
+	at org.eclipse.cdt.internal.core.pdom.CModelListener.processDelta(CModelListener.java:99)
+	at org.eclipse.cdt.internal.core.pdom.CModelListener.processDelta(CModelListener.java:87)
+	at org.eclipse.cdt.internal.core.pdom.CModelListener.elementChanged(CModelListener.java:65)
+	at org.eclipse.cdt.internal.core.model.CModelManager$2.run(CModelManager.java:1196)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.cdt.internal.core.model.CModelManager.notifyListeners(CModelManager.java:1187)
+	at org.eclipse.cdt.internal.core.model.CModelManager.firePostChangeDelta(CModelManager.java:1143)
+	at org.eclipse.cdt.internal.core.model.CModelManager.fire(CModelManager.java:1108)
+	at org.eclipse.cdt.internal.core.model.CModelManager.fire(CModelManager.java:1065)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:940)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1563)
+	at com.ipl.products.eclipse.cantpp.core.AbstractProjectLoadJob.refreshProject(AbstractProjectLoadJob.java:325)
+	at com.ipl.products.eclipse.cantpp.core.TestScriptFilesLoadJob.run(TestScriptFilesLoadJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:42:19.522
+!MESSAGE SEVERE: com.qas.cantata.eclipse.testexplorer.ui.properties.sections.OptionSectionPropertiesTabHolder getOptionsData
+ Unable to find the options data for node named test_TemperatureMonitor
+
+!ENTRY org.eclipse.ui 4 0 2021-02-01 15:42:19.523
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at com.ipl.products.eclipse.cantpp.options.GeneralTabContents$1.widgetSelected(GeneralTabContents.java:245)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5676)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1423)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4935)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4429)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:660)
+	at org.eclipse.ui.internal.Workbench$$Lambda$112/2094770768.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:559)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:23.759
+!MESSAGE Could not obtain a Cantata license. Unable to load project data
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 15:43:23.972
+!MESSAGE Error: 1
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.eclipse.cdt.utils.xcoff.XCoff32.isXCOFF32Header(XCoff32.java:794)
+	at org.eclipse.cdt.utils.xcoff.parser.XCOFF32Parser.isBinary(XCOFF32Parser.java:96)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:784)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChild(CContainer.java:219)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChildren(CContainer.java:185)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:157)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:429)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:307)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:297)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:526)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.createDelegate(PDOMUpdateTask.java:113)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:88)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-02-01 15:43:23.979
+!MESSAGE An internal error occurred during: "C/C++ Indexer".
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.eclipse.cdt.utils.xcoff.XCoff32.isXCOFF32Header(XCoff32.java:794)
+	at org.eclipse.cdt.utils.xcoff.parser.XCOFF32Parser.isBinary(XCOFF32Parser.java:96)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:784)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChild(CContainer.java:219)
+	at org.eclipse.cdt.internal.core.model.CContainer.computeChildren(CContainer.java:185)
+	at org.eclipse.cdt.internal.core.model.CContainer.buildStructure(CContainer.java:157)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:429)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:307)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:297)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:526)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.model.CElement.accept(CElement.java:528)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.createDelegate(PDOMUpdateTask.java:113)
+	at org.eclipse.cdt.internal.core.pdom.indexer.PDOMUpdateTask.run(PDOMUpdateTask.java:88)
+	at org.eclipse.cdt.internal.core.pdom.PDOMIndexerJob.run(PDOMIndexerJob.java:160)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 15:43:24.047
+!MESSAGE Error: Cannot run program "ipg_comp": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "ipg_comp": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:211)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 15:43:24.069
+!MESSAGE Error: Cannot run program "ipg_comp": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "ipg_comp": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:211)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 15:43:24.165
+!MESSAGE Error: Cannot run program "ipg_comp": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "ipg_comp": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:211)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 15:43:24.175
+!MESSAGE Error: Cannot run program "ipg_comp": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "ipg_comp": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:211)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 15:43:24.200
+!MESSAGE Error: Cannot run program "ipg_comp": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "ipg_comp": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:211)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 15:43:24.203
+!MESSAGE Error: Cannot run program "ipg_comp": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "ipg_comp": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:352)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:94)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:211)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:274)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runProgramForLanguage(AbstractBuiltinSpecsDetector.java:801)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForLanguage(AbstractBuiltinSpecsDetector.java:726)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector.runForEachLanguage(AbstractBuiltinSpecsDetector.java:591)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$1.runInWorkspace(AbstractBuiltinSpecsDetector.java:517)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:24.225
+!MESSAGE Could not obtain a Cantata license. Unable to load project data
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:24.737
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpCallEntriesAndRelations
+Failed to match a CallEntry for stub/wrap called 'therm_getReading'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:24.737
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpCallEntriesAndRelations
+Failed to match a CallEntry for stub/wrap called 'cool_increaseCooling'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:24.738
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpCallEntriesAndRelations
+Failed to match a CallEntry for stub/wrap called 'sys_triggerCriticalShutdown'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:24.738
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpGlobalFunctions
+Failed to match a CallEntry object for global function 'float therm_getReading();'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:24.738
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpGlobalFunctions
+Failed to match a CallEntry object for global function 'void cool_increaseCooling(int increaseAmount);'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:24.738
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpGlobalFunctions
+Failed to match a CallEntry object for global function 'void sys_triggerCriticalShutdown();'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 15:43:24.738
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpGlobalFunctions
+Failed to match a CallEntry object for global function 'extern void monitorTemperature();'
