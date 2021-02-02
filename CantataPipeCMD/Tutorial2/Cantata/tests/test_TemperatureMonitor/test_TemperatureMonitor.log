@@ -303,10 +303,10 @@ Running test_TemperatureMonitor ...
 = Test Description: TemperatureMonitor                                    =
 =         Log File: test_TemperatureMonitor.ctr                           =
 =    Configuration: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11            =
-=     Test Started: Tue Feb  2 10:09:38 2021                              =
+=     Test Started: Tue Feb  2 10:10:54 2021                              =
 ===========================================================================
 ==================================================================================
-= Test Finished: Tue Feb  2 10:09:38 2021                                        =
+= Test Finished: Tue Feb  2 10:10:54 2021                                        =
 =--------------------------------------------------------------------------------=
 = Test                        Script  Checks  Checks  Checks  Call Seq     TEST  =
 = Case                        Errors  Failed  Passed  Warned  Failures    RESULT =
