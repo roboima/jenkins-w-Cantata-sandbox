@@ -120,14 +120,14 @@
 	}
 
         </STYLE>
-<TITLE>Cantata Test Report Generated  1st February 2021 19:15</TITLE>
+<TITLE>Cantata Test Report Generated  1st February 2021 19:11</TITLE>
 </HEAD>
 <BODY>
 <CENTER>
 <div>
 <H1 class="heading">Cantata Test Report</H1>
 <H2 class="heading">Tutorial2</H2>
-<H3 class="heading">Generated  1st February 2021 19:15</H3>
+<H3 class="heading">Generated  1st February 2021 19:11</H3>
 </div>
 </CENTER>
 <br>
@@ -200,7 +200,7 @@
 <P>Test Script Description: = Cantata Test Harness v9.1                                               =
 = (c) 2020 QA Systems GmbH                                                =
 =    Configuration: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11            =
-=     Test Started: Mon Feb  1 19:14:59 2021                              =<br>Test Script File: test_TemperatureMonitor/test_TemperatureMonitor.c<br>
+=     Test Started: Mon Feb  1 19:11:11 2021                              =<br>Test Script File: test_TemperatureMonitor/test_TemperatureMonitor.c<br>
 </P>
 <P>
 <TABLE BORDER="1" WIDTH="95%" CELLSPACING="0" CELLPADDING="0">

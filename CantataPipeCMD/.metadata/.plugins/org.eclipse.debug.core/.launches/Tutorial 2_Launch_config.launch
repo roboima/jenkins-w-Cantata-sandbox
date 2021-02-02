@@ -4,6 +4,7 @@
 <booleanAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.all_tests" value="true"/>
 <booleanAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.clean" value="true"/>
 <stringAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.project" value="Tutorial2"/>
+<booleanAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.push_to_server" value="true"/>
 <booleanAttribute key="com.ipl.products.eclipse.cantpp.testscript.makefile.run_qac" value="false"/>
 <booleanAttribute key="org.eclipse.debug.core.capture_output" value="false"/>
 <booleanAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_OUTPUT_ON" value="false"/>
