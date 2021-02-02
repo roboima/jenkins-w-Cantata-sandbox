@@ -4,7 +4,7 @@
 =-------------------------------------------------------------------------=
 = Test Description: TemperatureMonitor                                    =
 =    Configuration: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11            =
-=     Test Started: Mon Feb  1 19:14:59 2021                              =
+=     Test Started: Mon Feb  1 19:18:41 2021                              =
 ===========================================================================
 ------------------------- Start Test: test_monitorTemperature
 
@@ -127,7 +127,7 @@ call-return            0   100.0%   100.0% / 100.0% / 100.0% /   0.0% /     1
 
 EXPORT_COVERAGE: coverage data written to "test_TemperatureMonitor.cov"
 ==================================================================================
-= Test Finished: Mon Feb  1 19:14:59 2021                                        =
+= Test Finished: Mon Feb  1 19:18:41 2021                                        =
 =--------------------------------------------------------------------------------=
 = Test                        Script  Checks  Checks  Checks  Call Seq     TEST  =
 = Case                        Errors  Failed  Passed  Warned  Failures    RESULT =

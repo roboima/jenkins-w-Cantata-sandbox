@@ -3492,3 +3492,76 @@ Caused by: java.lang.NullPointerException
 !ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:14:58.857
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_warn:warning
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:40.730
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_error:error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:40.732
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_fatal:fatal error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:40.735
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format:@F:@L: @S: @C - @M
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:40.737
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_info:info
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:40.739
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_warn:warning
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:41.055
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_error:error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:41.057
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_fatal:fatal error
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:41.059
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format:@F:@L: @S: @C - @M
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:41.061
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_info:info
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-02-01 19:18:41.065
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
+     --error_format_warn:warning
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-02-01 19:18:43.216
+!MESSAGE Error: 1
+!STACK 0
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.eclipse.cdt.utils.xcoff.XCoff32.isXCOFF32Header(XCoff32.java:794)
+	at org.eclipse.cdt.utils.xcoff.parser.XCOFF32Parser.isBinary(XCOFF32Parser.java:96)
+	at org.eclipse.cdt.internal.core.model.CModelManager.createBinaryFile(CModelManager.java:784)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:364)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:934)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:380)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1502)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1563)
+	at com.ipl.products.eclipse.cantpp.testscript.makefile.MakefileReportGenerator.generateReport(MakefileReportGenerator.java:219)
+	at com.ipl.products.eclipse.cantpp.testscript.makefile.MakefileReportGenerator.generateReport(MakefileReportGenerator.java:204)
+	at com.ipl.products.eclipse.cantpp.testscript.makefile.RunTestJob.run(RunTestJob.java:351)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
