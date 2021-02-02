@@ -1,0 +1,322 @@
+Compiling (C) ... ../../TemperatureMonitor.c -> test_TemperatureMonitor/TemperatureMonitor.o
+Cantata CPPCCD v9.1 (c) 2020 QA Systems GmbH
+cppccd --analyse
+       --verbose
+       --parse:--line_directives
+       --parse:-W2
+       --sm:--call_seq_code
+       --comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+       --verbose
+       --ci:--instr:func;call;
+       --intdir:test_TemperatureMonitor/
+       --comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+       --no_link
+       gcc
+       -c
+       ../../TemperatureMonitor.c
+       -o
+       test_TemperatureMonitor/TemperatureMonitor.o
+Configuration: "/opt/qa_systems/cantata/bin/cantpp.cfg", x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+Using port header file: '/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.h'
+Section: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+ - registered as an AUTHORISED PLATFORM
+Processing ../../TemperatureMonitor.c
+Cantata CPPI   v9.1 (c) 2020 QA Systems GmbH
+cppi --stdI:/opt/qa_systems/cantata/inc
+     --c
+     --c11
+     --gnu_version:70500
+     --gnu_gcc_mode
+     --output_for_gnu
+     --no_alternative_tokens
+     --no_allow_ats
+     --bitfield_is_unsigned
+     --gnu_builtin_varargs
+     --ignore_carriage_returns
+     --char_is_signed
+     --allow_cpp_comments
+     --allow_dollars
+     --expand_macros_in_compiler_pragmas
+     --no_allow_hex_floating_point
+     --no_implicit_cast_of_bound_function_allowed
+     --no_ignore_qualifier_mismatch
+     --no_int_to_enum_assignment
+     --no_altivec
+     --no_predeclared_size_t
+     --no_relaxed_pointer_assignment
+     --no_relaxed_const_initialisation
+     --restrict
+     --no_allow_sizeof_during_preprocess
+     --recognise_common_stdlib_functions
+     --allow_void_null_pointer_constant
+     --allow_zero_size_arrays
+     --float128
+     --allow_truncating_conversion_in_explicit_pointer_casts
+     --allow_binary_literals
+     --multibyte_chars
+     --error_format_error:error
+     --error_format_fatal:fatal error
+     --error_format:@F:@L: @S: @C - @M
+     --error_format_info:info
+     --error_format_warn:warning
+     --arith_rshift
+     --sizeof_double:64
+     --sizeof_float:32
+     --sizeof_int:32
+     --sizeof_short:16
+     --sizeof_wchar_t:32
+     --sizeof_longlong:64
+     --sizeof_long:64
+     --sizeof_pointer:64
+     --sizeof_longdouble:128
+     --size_t_is:ulong
+     --ptrdiff_t_is:long
+     --align_longlong:8,8
+     --align_wchar_t:4,4
+     --align_char:1,1
+     --align_short:2,2
+     --align_pointer:8,8
+     --align_int:4,4
+     --align_long:8,8
+     --align_float:4,4
+     --align_double:8,8
+     --align_longdouble:16,16
+     --bits_per_byte:8
+     --little_endian
+     --param_order_right_to_left
+     -DCPP_TOOL_PORT_CONFIG="ports/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.h"
+     --stdI:/usr/lib/gcc/x86_64-linux-gnu/7/include
+     --stdI:/usr/local/include
+     --stdI:/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+     --stdI:/usr/include/x86_64-linux-gnu
+     --stdI:/usr/include
+     -DCANTPP_EXT_64BIT_MAX_INT
+     -DCANTPP_EXT_INTPTR_IS_LONG
+     -DCANTPP_INT_NO_TEMPNAM
+     -DCANTPP_LONGLONG_SUPPORTED
+     -DCANTPP_OUTPUT_FOR_GUI
+     -D__IPL_CANTPP__
+     -D__QAS_CANTATA__
+     --line_directives
+     -W2
+     --instr:func;call;
+     --call_seq_code
+     --cmd_line:"cppccd!IPL!-F!IPL!../../ipg.cop!IPL!-F!IPL!test_TemperatureMonitor/ipg.cop!IPL!--intdir:test_TemperatureMonitor/!IPL!--comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11!IPL!--no_link!IPL!gcc!IPL!-c!IPL!-o!IPL!test_TemperatureMonitor/TemperatureMonitor.o"
+     --verbose
+     -otest_TemperatureMonitor/TemperatureMonitor.ci.sm.c
+     --ii_file test_TemperatureMonitor/TemperatureMonitor.ii
+     --ti_file test_TemperatureMonitor/TemperatureMonitor.ti
+     --sm
+     --ci
+     --analyse
+     --static_info_file:test_TemperatureMonitor/
+     ../../TemperatureMonitor.c
+Compiling with "gcc"
+gcc -DCANTPP_EXT_64BIT_MAX_INT
+    -DCANTPP_EXT_INTPTR_IS_LONG
+    -DCANTPP_INT_NO_TEMPNAM
+    -DCANTPP_LONGLONG_SUPPORTED
+    -DCANTPP_OUTPUT_FOR_GUI
+    -D__IPL_CANTPP__
+    -D__QAS_CANTATA__
+    -c
+    -c
+    -I/opt/qa_systems/cantata/inc
+    -o
+    test_TemperatureMonitor/TemperatureMonitor.o
+    -x
+    c
+    /home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.ci.sm.c
+Compiling (C) ... test_TemperatureMonitor/test_TemperatureMonitor.c -> test_TemperatureMonitor/test_TemperatureMonitor.o
+Cantata CPPCCD v9.1 (c) 2020 QA Systems GmbH
+cppccd --analyse
+       --verbose
+       --parse:--line_directives
+       --parse:-W2
+       --sm:--call_seq_code
+       --comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+       --verbose
+       --ci:--instr:func;call;
+       --intdir:test_TemperatureMonitor/
+       --comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+       --no_link
+       gcc
+       -c
+       test_TemperatureMonitor/test_TemperatureMonitor.c
+       -o
+       test_TemperatureMonitor/test_TemperatureMonitor.o
+Configuration: "/opt/qa_systems/cantata/bin/cantpp.cfg", x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+Using port header file: '/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.h'
+Section: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+ - registered as an AUTHORISED PLATFORM
+Processing test_TemperatureMonitor/test_TemperatureMonitor.c
+Cantata CPPI   v9.1 (c) 2020 QA Systems GmbH
+cppi --stdI:/opt/qa_systems/cantata/inc
+     --c
+     --c11
+     --gnu_version:70500
+     --gnu_gcc_mode
+     --output_for_gnu
+     --no_alternative_tokens
+     --no_allow_ats
+     --bitfield_is_unsigned
+     --gnu_builtin_varargs
+     --ignore_carriage_returns
+     --char_is_signed
+     --allow_cpp_comments
+     --allow_dollars
+     --expand_macros_in_compiler_pragmas
+     --no_allow_hex_floating_point
+     --no_implicit_cast_of_bound_function_allowed
+     --no_ignore_qualifier_mismatch
+     --no_int_to_enum_assignment
+     --no_altivec
+     --no_predeclared_size_t
+     --no_relaxed_pointer_assignment
+     --no_relaxed_const_initialisation
+     --restrict
+     --no_allow_sizeof_during_preprocess
+     --recognise_common_stdlib_functions
+     --allow_void_null_pointer_constant
+     --allow_zero_size_arrays
+     --float128
+     --allow_truncating_conversion_in_explicit_pointer_casts
+     --allow_binary_literals
+     --multibyte_chars
+     --error_format_error:error
+     --error_format_fatal:fatal error
+     --error_format:@F:@L: @S: @C - @M
+     --error_format_info:info
+     --error_format_warn:warning
+     --arith_rshift
+     --sizeof_double:64
+     --sizeof_float:32
+     --sizeof_int:32
+     --sizeof_short:16
+     --sizeof_wchar_t:32
+     --sizeof_longlong:64
+     --sizeof_long:64
+     --sizeof_pointer:64
+     --sizeof_longdouble:128
+     --size_t_is:ulong
+     --ptrdiff_t_is:long
+     --align_longlong:8,8
+     --align_wchar_t:4,4
+     --align_char:1,1
+     --align_short:2,2
+     --align_pointer:8,8
+     --align_int:4,4
+     --align_long:8,8
+     --align_float:4,4
+     --align_double:8,8
+     --align_longdouble:16,16
+     --bits_per_byte:8
+     --little_endian
+     --param_order_right_to_left
+     -DCPP_TOOL_PORT_CONFIG="ports/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.h"
+     --stdI:/usr/lib/gcc/x86_64-linux-gnu/7/include
+     --stdI:/usr/local/include
+     --stdI:/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+     --stdI:/usr/include/x86_64-linux-gnu
+     --stdI:/usr/include
+     -DCANTPP_EXT_64BIT_MAX_INT
+     -DCANTPP_EXT_INTPTR_IS_LONG
+     -DCANTPP_INT_NO_TEMPNAM
+     -DCANTPP_LONGLONG_SUPPORTED
+     -DCANTPP_OUTPUT_FOR_GUI
+     -D__IPL_CANTPP__
+     -D__QAS_CANTATA__
+     --line_directives
+     -W2
+     --instr:func;call;
+     --call_seq_code
+     --cmd_line:"cppccd!IPL!-F!IPL!../../ipg.cop!IPL!-F!IPL!test_TemperatureMonitor/ipg.cop!IPL!--intdir:test_TemperatureMonitor/!IPL!--comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11!IPL!--no_link!IPL!gcc!IPL!-c!IPL!-o!IPL!test_TemperatureMonitor/test_TemperatureMonitor.o"
+     --verbose
+     -otest_TemperatureMonitor/test_TemperatureMonitor.ci.sm.c
+     --ii_file test_TemperatureMonitor/test_TemperatureMonitor.ii
+     --ti_file test_TemperatureMonitor/test_TemperatureMonitor.ti
+     --sm
+     --ci
+     --analyse
+     --static_info_file:test_TemperatureMonitor/
+     test_TemperatureMonitor/test_TemperatureMonitor.c
+Compiling with "gcc"
+gcc -DCANTPP_EXT_64BIT_MAX_INT
+    -DCANTPP_EXT_INTPTR_IS_LONG
+    -DCANTPP_INT_NO_TEMPNAM
+    -DCANTPP_LONGLONG_SUPPORTED
+    -DCANTPP_OUTPUT_FOR_GUI
+    -D__IPL_CANTPP__
+    -D__QAS_CANTATA__
+    -c
+    -c
+    -I/opt/qa_systems/cantata/inc
+    -o
+    test_TemperatureMonitor/test_TemperatureMonitor.o
+    -x
+    c
+    /home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ci.sm.c
+Linking (C) test_TemperatureMonitor/test_TemperatureMonitor.exe ...
+Cantata CPPCCD v9.1 (c) 2020 QA Systems GmbH
+cppccd --analyse
+       --verbose
+       --parse:--line_directives
+       --parse:-W2
+       --sm:--call_seq_code
+       --comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+       --verbose
+       --ci:--instr:func;call;
+       --intdir:%DIR%
+       --comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+       gcc
+       test_TemperatureMonitor/TemperatureMonitor.o
+       test_TemperatureMonitor/test_TemperatureMonitor.o
+       -o
+       test_TemperatureMonitor/test_TemperatureMonitor.exe
+Configuration: "/opt/qa_systems/cantata/bin/cantpp.cfg", x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+Using port header file: '/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.h'
+Section: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+ - registered as an AUTHORISED PLATFORM
+Cantata CPPTI  v9.1 (c) 2020 QA Systems GmbH
+cppti --verbose
+      --ti_file_ext:.ti
+      --ii_file_ext:.ii
+      test_TemperatureMonitor/TemperatureMonitor.o
+      test_TemperatureMonitor/test_TemperatureMonitor.o
+Linking with "gcc"
+gcc test_TemperatureMonitor/TemperatureMonitor.o
+    test_TemperatureMonitor/test_TemperatureMonitor.o
+    -o
+    test_TemperatureMonitor/test_TemperatureMonitor.exe
+    -I/opt/qa_systems/cantata/inc
+    -L/opt/qa_systems/cantata/libs/lib-x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+    -lm
+    -L/opt/qa_systems/cantata/libs/lib-x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11
+    -lcantpp
+    -lm
+Built test_TemperatureMonitor successfully
+Running test_TemperatureMonitor ...
+===========================================================================
+= Cantata Test Harness v9.1                                               =
+= (c) 2020 QA Systems GmbH                                                =
+=-------------------------------------------------------------------------=
+= Test Description: TemperatureMonitor                                    =
+=         Log File: test_TemperatureMonitor.ctr                           =
+=    Configuration: x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11            =
+=     Test Started: Mon Feb  1 19:08:15 2021                              =
+===========================================================================
+==================================================================================
+= Test Finished: Mon Feb  1 19:08:15 2021                                        =
+=--------------------------------------------------------------------------------=
+= Test                        Script  Checks  Checks  Checks  Call Seq     TEST  =
+= Case                        Errors  Failed  Passed  Warned  Failures    RESULT =
+=--------------------------------------------------------------------------------=
+= test_monitorTemperature          0       0       0       0         0      PASS =
+= test_monitorTemperature_1        0       0       0       0         0      PASS =
+= test_monitorTemperature_2        0       0       1       0         0      PASS =
+= COVERAGE RULE SET                0       0       2       0         0      PASS =
+= Other                            0       0       0       0         0      PASS =
+=--------------------------------------------------------------------------------=
+= TOTALS                           0       0       3       0         0      PASS =
+==================================================================================
+Test complete
