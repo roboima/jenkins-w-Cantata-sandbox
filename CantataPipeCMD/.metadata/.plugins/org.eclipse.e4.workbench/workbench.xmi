@@ -164,9 +164,10 @@
           <tags>persp.viewSC:org.eclipse.ui.views.ProblemView</tags>
           <tags>persp.viewSC:org.eclipse.ui.views.ContentOutline</tags>
           <tags>persp.viewSC:org.eclipse.ui.navigator.ProjectExplorer</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_H4O5C2TVEeuSsZ5jDTHKug" selectedElement="_H4O5DGTVEeuSsZ5jDTHKug">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_H4O5C2TVEeuSsZ5jDTHKug" selectedElement="_H4O5F2TVEeuSsZ5jDTHKug">
             <children xsi:type="basic:PartSashContainer" xmi:id="_H4O5DGTVEeuSsZ5jDTHKug" containerData="7000" selectedElement="_H4O5EGTVEeuSsZ5jDTHKug" horizontal="true">
               <children xsi:type="basic:PartStack" xmi:id="_H4O5DWTVEeuSsZ5jDTHKug" elementId="Left" containerData="2867" selectedElement="_H4O5DmTVEeuSsZ5jDTHKug">
+                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_H4O5DmTVEeuSsZ5jDTHKug" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewID" ref="_H4QuN2TVEeuSsZ5jDTHKug" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Cantata</tags>
@@ -284,7 +285,6 @@
       <children xsi:type="basic:PartStack" xmi:id="_H4QIWGTVEeuSsZ5jDTHKug" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_H4QIWmTVEeuSsZ5jDTHKug">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="advanced:Placeholder" xmi:id="_H4QIWWTVEeuSsZ5jDTHKug" elementId="com.ipl.products.eclipse.cantpp.testcaseeditor.ui.view.TestCaseEditorView" ref="_H4QuTGTVEeuSsZ5jDTHKug" closeable="true">
           <tags>View</tags>
           <tags>categoryTag:Cantata</tags>
@@ -449,6 +449,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Cantata</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_H4QuOGTVEeuSsZ5jDTHKug" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewID">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -479,8 +481,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Cantata</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_H4QuUGTVEeuSsZ5jDTHKug" elementId="com.qas.cantata.eclipse.testexplorer.ui.properties.TestPropertiesViewID">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -518,7 +518,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_H4QuXmTVEeuSsZ5jDTHKug" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_oJE9AGbsEeuvneutUyf5Cw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_H4jDZ2TVEeuSsZ5jDTHKug"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7gGvMGcEEeuVL9lTPRAxwA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_H4jDZ2TVEeuSsZ5jDTHKug"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_H4QubGTVEeuSsZ5jDTHKug" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -549,7 +549,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_H4QutWTVEeuSsZ5jDTHKug" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_oJJOcWbsEeuvneutUyf5Cw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_H4jDGWTVEeuSsZ5jDTHKug"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_7gJygWcEEeuVL9lTPRAxwA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_H4jDGWTVEeuSsZ5jDTHKug"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_oeX3kGbsEeuvneutUyf5Cw" elementId="org.eclipse.cdt.ui.editor.CEditor" visible="false">
         <tags>Draggable</tags>
@@ -2848,7 +2848,7 @@
   <addons xmi:id="_H4kQjmTVEeuSsZ5jDTHKug" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_H4kQj2TVEeuSsZ5jDTHKug" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_H4kQkGTVEeuSsZ5jDTHKug" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_7QMD4WcEEeuVL9lTPRAxwA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_H4kQkmTVEeuSsZ5jDTHKug" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_H4kQk2TVEeuSsZ5jDTHKug" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_H4kQlGTVEeuSsZ5jDTHKug" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>
