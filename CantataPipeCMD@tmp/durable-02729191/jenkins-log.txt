@@ -1,0 +1,32 @@
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../CantataPipeCMD/.metadata/.log
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/configuration/.datasetid
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_report.html
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_report.xml
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_summary.html
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/.metadata/.plugins/org.eclipse.cdt.core/.log
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/Makefile
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.csi
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.csi
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.exe
+	modified:   ../CantataPipeCMD/Tutorial2/ipg.cop
+	deleted:    ../CantataPipeCMD@tmp/durable-b5153f89/jenkins-log.txt
+	deleted:    ../CantataPipeCMD@tmp/durable-b5153f89/script.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../CantataPipeCMD/Tutorial2/Cantata/configuration/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.mk
+	../CantataPipeCMD@tmp/durable-02729191/
+
+no changes added to commit (use "git add" and/or "git commit -a")

@@ -17,6 +17,6 @@
 "--parse:--line_directives"
 "--parse:-W2"
 "--sm:--call_seq_code"
-"--comp:x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11"
+"--comp:x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11"
 
 #User Section
