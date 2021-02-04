@@ -4521,9 +4521,6 @@
 					<entry kind="includePath" name="/usr/lib/gcc/x86_64-linux-gnu/7/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
-					<entry kind="includePath" name="/${ProjName}/Cantata will NOT be used in this build">
-						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH"/>
-					</entry>
 					<entry kind="includePath" name="/usr/local/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
