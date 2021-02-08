@@ -1,0 +1,5 @@
+make[3]: *** [test_TemperatureMonitor/build_and_run] Error 3
+make[2]: *** [test_TemperatureMonitor/make_test] Error 2
+make[2]: Target 'all' not remade because of errors.
+make[1]: *** [build_all] Error 2
+make[1]: Target 'do_all' not remade because of errors.
