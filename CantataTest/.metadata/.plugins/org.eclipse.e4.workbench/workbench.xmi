@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_1aGl4VA9EeuJBPXqjOy1qQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_1aGl4lA9EeuJBPXqjOy1qQ" bindingContexts="_1aGl61A9EeuJBPXqjOy1qQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;test_TemperatureMonitor.c&quot; tooltip=&quot;Tutorial 5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c&quot;>&#xA;&lt;persistable path=&quot;/Tutorial 5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ipl.products.eclipse.cantpp.editor.editors.COVEditor&quot; name=&quot;test_TemperatureMonitor.cov&quot; tooltip=&quot;Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.cov&quot;>&#xA;&lt;persistable path=&quot;/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.cov&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;TemperatureMonitor.c&quot; tooltip=&quot;Tutorial2/TemperatureMonitor.c&quot;>&#xA;&lt;persistable path=&quot;/Tutorial2/TemperatureMonitor.c&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;TemperatureMonitor.h&quot; tooltip=&quot;Tutorial2/TemperatureMonitor.h&quot;>&#xA;&lt;persistable path=&quot;/Tutorial2/TemperatureMonitor.h&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editorSupport&quot; name=&quot;test_report.html&quot; tooltip=&quot;Tutorial2/Cantata/results/test_report.html&quot;>&#xA;&lt;persistable path=&quot;/Tutorial2/Cantata/results/test_report.html&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.ipl.products.eclipse.cantpp.editor.editors.CTREditor&quot; name=&quot;test_TemperatureMonitor.ctr&quot; tooltip=&quot;Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr&quot;>&#xA;&lt;persistable path=&quot;/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr&quot;/>&#xA;&lt;/file>&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;test_TemperatureMonitor.c&quot; tooltip=&quot;Tutorial 5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c&quot;>&#xA;&lt;persistable path=&quot;/Tutorial 5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c&quot;/>&#xA;&lt;/file>&#xA;&lt;/mruList>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_1aGl4lA9EeuJBPXqjOy1qQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_1tsQQlA9EeuJBPXqjOy1qQ" width="1024" height="768">
@@ -13,7 +13,7 @@
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_1tsQQlA9EeuJBPXqjOy1qQ" selectedElement="_1tsQQ1A9EeuJBPXqjOy1qQ" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_1tsQQ1A9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_3XOZ4FA9EeuJBPXqjOy1qQ">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_1tsQQ1A9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_11AZMFA9EeuJBPXqjOy1qQ">
         <children xsi:type="advanced:Perspective" xmi:id="_11AZMFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.cdt.ui.CPerspective" selectedElement="_11AZMVA9EeuJBPXqjOy1qQ" label="C/C++" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/view16/c_pers.gif">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,persp.hideToolbarSC:org.eclipse.debug.ui.commands.RunToLine,persp.hideToolbarSC:org.eclipse.jdt.ui.actions.OpenProjectWizard,"/>
           <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
@@ -63,7 +63,12 @@
           <tags>persp.showIn:org.eclipse.cdt.codan.internal.ui.views.ProblemDetails</tags>
           <tags>persp.viewSC:org.eclipse.cdt.codan.internal.ui.views.ProblemDetails</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_11AZMVA9EeuJBPXqjOy1qQ" selectedElement="_11AZNlA9EeuJBPXqjOy1qQ" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_11AZMlA9EeuJBPXqjOy1qQ" elementId="topLeft" containerData="2500" selectedElement="_11AZM1A9EeuJBPXqjOy1qQ">
+            <children xsi:type="basic:PartStack" xmi:id="_11AZQlA9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewIDMStack" containerData="2500" selectedElement="_11AZQ1A9EeuJBPXqjOy1qQ">
+              <tags>active</tags>
+              <children xsi:type="advanced:Placeholder" xmi:id="_11AZQ1A9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewID" ref="_10-kAFA9EeuJBPXqjOy1qQ" closeable="true">
+                <tags>View</tags>
+                <tags>categoryTag:Cantata</tags>
+              </children>
               <children xsi:type="advanced:Placeholder" xmi:id="_11AZM1A9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_10whkFA9EeuJBPXqjOy1qQ" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -77,10 +82,10 @@
                 <tags>categoryTag:General</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_11AZNlA9EeuJBPXqjOy1qQ" containerData="7500" selectedElement="_11AZPlA9EeuJBPXqjOy1qQ">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_11AZN1A9EeuJBPXqjOy1qQ" containerData="7500" horizontal="true">
-                <children xsi:type="advanced:Placeholder" xmi:id="_11AZOFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.editorss" containerData="7500" ref="_10bxcFA9EeuJBPXqjOy1qQ"/>
-                <children xsi:type="basic:PartStack" xmi:id="_11AZOVA9EeuJBPXqjOy1qQ" elementId="topRight" containerData="2500" selectedElement="_11AZOlA9EeuJBPXqjOy1qQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_11AZNlA9EeuJBPXqjOy1qQ" containerData="7500" selectedElement="_11AZN1A9EeuJBPXqjOy1qQ">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_11AZN1A9EeuJBPXqjOy1qQ" containerData="7500" selectedElement="_11AZOFA9EeuJBPXqjOy1qQ" horizontal="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="_11AZOFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.editorss" containerData="7493" ref="_10bxcFA9EeuJBPXqjOy1qQ"/>
+                <children xsi:type="basic:PartStack" xmi:id="_11AZOVA9EeuJBPXqjOy1qQ" elementId="topRight" containerData="2507" selectedElement="_11AZPFA9EeuJBPXqjOy1qQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_11AZOlA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_100zAFA9EeuJBPXqjOy1qQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
@@ -89,7 +94,7 @@
                     <tags>View</tags>
                     <tags>categoryTag:General</tags>
                   </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_11AZPFA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.testcaseeditor.ui.view.CallEditorView" toBeRendered="false" ref="_108HwFA9EeuJBPXqjOy1qQ" closeable="true">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_11AZPFA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.testcaseeditor.ui.view.CallEditorView" ref="_108HwFA9EeuJBPXqjOy1qQ" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:Cantata</tags>
                   </children>
@@ -99,47 +104,30 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_11AZPlA9EeuJBPXqjOy1qQ" containerData="2500" selectedElement="_11AZQVA9EeuJBPXqjOy1qQ" horizontal="true">
-                <children xsi:type="basic:PartStack" xmi:id="_11AZP1A9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coveragetree.CoverageTreeViewMStack" containerData="5000" selectedElement="_11AZQFA9EeuJBPXqjOy1qQ">
-                  <children xsi:type="advanced:Placeholder" xmi:id="_11AZQFA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coveragetree.CoverageTreeView" ref="_109V4VA9EeuJBPXqjOy1qQ" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:Cantata</tags>
-                  </children>
+              <children xsi:type="basic:PartStack" xmi:id="_11AZRFA9EeuJBPXqjOy1qQ" elementId="bottom" containerData="2500" selectedElement="_11AZSlA9EeuJBPXqjOy1qQ">
+                <children xsi:type="advanced:Placeholder" xmi:id="_11AZRVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ProblemView" ref="_10xvsVA9EeuJBPXqjOy1qQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
                 </children>
-                <children xsi:type="basic:PartSashContainer" xmi:id="_11AZQVA9EeuJBPXqjOy1qQ" containerData="5000" selectedElement="_11AZQlA9EeuJBPXqjOy1qQ" horizontal="true">
-                  <children xsi:type="basic:PartStack" xmi:id="_11AZQlA9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewIDMStack" containerData="5000" selectedElement="_11AZQ1A9EeuJBPXqjOy1qQ">
-                    <tags>noFocus</tags>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_11AZQ1A9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewID" ref="_10-kAFA9EeuJBPXqjOy1qQ" closeable="true">
-                      <tags>View</tags>
-                      <tags>categoryTag:Cantata</tags>
-                    </children>
-                  </children>
-                  <children xsi:type="basic:PartStack" xmi:id="_11AZRFA9EeuJBPXqjOy1qQ" elementId="bottom" containerData="5000" selectedElement="_11AZRVA9EeuJBPXqjOy1qQ">
-                    <children xsi:type="advanced:Placeholder" xmi:id="_11AZRVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ProblemView" ref="_10xvsVA9EeuJBPXqjOy1qQ" closeable="true">
-                      <tags>View</tags>
-                      <tags>categoryTag:General</tags>
-                    </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_11AZRlA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.TaskList" ref="_10zk4FA9EeuJBPXqjOy1qQ" closeable="true">
-                      <tags>View</tags>
-                      <tags>categoryTag:General</tags>
-                    </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_11AZR1A9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_100L8FA9EeuJBPXqjOy1qQ" closeable="true">
-                      <tags>View</tags>
-                      <tags>categoryTag:General</tags>
-                    </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_11AZSFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_100L8VA9EeuJBPXqjOy1qQ" closeable="true">
-                      <tags>View</tags>
-                      <tags>categoryTag:General</tags>
-                    </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_11AZSVA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coverageviewer.CoverageViewer" toBeRendered="false" ref="_109V4FA9EeuJBPXqjOy1qQ" closeable="true">
-                      <tags>View</tags>
-                      <tags>categoryTag:Cantata</tags>
-                    </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_11AZSlA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.core.ui.dataManager.DataManager" ref="_10_yIFA9EeuJBPXqjOy1qQ" closeable="true">
-                      <tags>View</tags>
-                      <tags>categoryTag:Cantata</tags>
-                    </children>
-                  </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_11AZRlA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.TaskList" ref="_10zk4FA9EeuJBPXqjOy1qQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_11AZR1A9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_100L8FA9EeuJBPXqjOy1qQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_11AZSFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_100L8VA9EeuJBPXqjOy1qQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_11AZSVA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coverageviewer.CoverageViewer" toBeRendered="false" ref="_109V4FA9EeuJBPXqjOy1qQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Cantata</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_11AZSlA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.core.ui.dataManager.DataManager" ref="_10_yIFA9EeuJBPXqjOy1qQ" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Cantata</tags>
                 </children>
               </children>
             </children>
@@ -165,7 +153,7 @@
           <tags>persp.viewSC:org.eclipse.ui.views.ContentOutline</tags>
           <tags>persp.viewSC:org.eclipse.ui.navigator.ProjectExplorer</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_3XOZ4VA9EeuJBPXqjOy1qQ" selectedElement="_3XOZ4lA9EeuJBPXqjOy1qQ">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_3XOZ4lA9EeuJBPXqjOy1qQ" containerData="7000" selectedElement="_3XOZ5lA9EeuJBPXqjOy1qQ" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_3XOZ4lA9EeuJBPXqjOy1qQ" containerData="7000" selectedElement="_3XOZ41A9EeuJBPXqjOy1qQ" horizontal="true">
               <children xsi:type="basic:PartStack" xmi:id="_3XOZ41A9EeuJBPXqjOy1qQ" elementId="Left" containerData="2867" selectedElement="_3XOZ5FA9EeuJBPXqjOy1qQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_3XOZ5FA9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewID" ref="_10-kAFA9EeuJBPXqjOy1qQ" closeable="true">
                   <tags>View</tags>
@@ -199,7 +187,7 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_3XOZ7VA9EeuJBPXqjOy1qQ" containerData="3000" selectedElement="_3XOZ7lA9EeuJBPXqjOy1qQ" horizontal="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_3XOZ7VA9EeuJBPXqjOy1qQ" containerData="3000" selectedElement="_3XOZ8VA9EeuJBPXqjOy1qQ" horizontal="true">
               <children xsi:type="basic:PartStack" xmi:id="_3XOZ7lA9EeuJBPXqjOy1qQ" elementId="bottom_left" containerData="5000" selectedElement="_3XOZ71A9EeuJBPXqjOy1qQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_3XOZ71A9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.console.ConsoleView" ref="_100L8FA9EeuJBPXqjOy1qQ" closeable="true">
                   <tags>View</tags>
@@ -210,7 +198,7 @@
                   <tags>categoryTag:Cantata</tags>
                 </children>
               </children>
-              <children xsi:type="basic:PartSashContainer" xmi:id="_3XOZ8VA9EeuJBPXqjOy1qQ" containerData="5000" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_3XOZ8VA9EeuJBPXqjOy1qQ" containerData="5000" selectedElement="_3XOZ81A9EeuJBPXqjOy1qQ" horizontal="true">
                 <children xsi:type="basic:PartStack" xmi:id="_3XOZ8lA9EeuJBPXqjOy1qQ" elementId="bottom" toBeRendered="false" containerData="5000"/>
                 <children xsi:type="basic:PartStack" xmi:id="_3XOZ81A9EeuJBPXqjOy1qQ" elementId="bottom_right" containerData="5000" selectedElement="_3XOZ9FA9EeuJBPXqjOy1qQ">
                   <children xsi:type="advanced:Placeholder" xmi:id="_3XOZ9FA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.reportviewer.ReportViewer" ref="_3XEo4FA9EeuJBPXqjOy1qQ" closeable="true">
@@ -281,10 +269,9 @@
       <toolbar xmi:id="_3afwUVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.cheatsheets.views.CheatSheetView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_10bxcFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.editorss" selectedElement="_10bxcVA9EeuJBPXqjOy1qQ">
-      <children xsi:type="basic:PartStack" xmi:id="_10bxcVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_10_yJFA9EeuJBPXqjOy1qQ">
+      <children xsi:type="basic:PartStack" xmi:id="_10bxcVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_10_yIlA9EeuJBPXqjOy1qQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="advanced:Placeholder" xmi:id="_10_yIlA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.testcaseeditor.ui.view.TestCaseEditorView" ref="_10_yIVA9EeuJBPXqjOy1qQ" closeable="true">
           <tags>View</tags>
           <tags>categoryTag:Cantata</tags>
@@ -297,7 +284,7 @@
           <tags>View</tags>
           <tags>categoryTag:Cantata</tags>
         </children>
-        <children xsi:type="advanced:Placeholder" xmi:id="_3XNy0FA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coverageviewer.CoverageViewer" toBeRendered="false" ref="_109V4FA9EeuJBPXqjOy1qQ" closeable="true">
+        <children xsi:type="advanced:Placeholder" xmi:id="_3XNy0FA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coverageviewer.CoverageViewer" ref="_109V4FA9EeuJBPXqjOy1qQ" closeable="true">
           <tags>View</tags>
           <tags>categoryTag:Cantata</tags>
         </children>
@@ -307,6 +294,34 @@
         </children>
         <children xsi:type="basic:Part" xmi:id="_Nyg7MFA-EeuJBPXqjOy1qQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="test_TemperatureMonitor.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;test_TemperatureMonitor.c&quot; partName=&quot;test_TemperatureMonitor.c&quot; title=&quot;test_TemperatureMonitor.c&quot; tooltip=&quot;Tutorial 5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Tutorial 5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="advanced:Placeholder" xmi:id="_11AZQFA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coveragetree.CoverageTreeView" ref="_109V4VA9EeuJBPXqjOy1qQ" closeable="true">
+          <tags>View</tags>
+          <tags>categoryTag:Cantata</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_Tm3MYGo9EeueGo-zRjDzkg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="test_TemperatureMonitor.cov" iconURI="platform:/plugin/com.ipl.products.eclipse.cantpp.editor/icons_ipl/grey-16.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.ipl.products.eclipse.cantpp.editor.editors.COVEditor&quot; name=&quot;test_TemperatureMonitor.cov&quot; partName=&quot;test_TemperatureMonitor.cov&quot; title=&quot;test_TemperatureMonitor.cov&quot; tooltip=&quot;Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.cov&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.cov&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>com.ipl.products.eclipse.cantpp.editor.editors.COVEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_xctawGo9EeueGo-zRjDzkg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="test_TemperatureMonitor.ctr" iconURI="platform:/plugin/com.ipl.products.eclipse.cantpp.editor/icons_ipl/red-16.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;com.ipl.products.eclipse.cantpp.editor.editors.CTREditor&quot; name=&quot;test_TemperatureMonitor.ctr&quot; partName=&quot;test_TemperatureMonitor.ctr&quot; title=&quot;test_TemperatureMonitor.ctr&quot; tooltip=&quot;Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>com.ipl.products.eclipse.cantpp.editor.editors.CTREditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_LDPE0GpFEeueGo-zRjDzkg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TemperatureMonitor.c" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;TemperatureMonitor.c&quot; partName=&quot;TemperatureMonitor.c&quot; title=&quot;TemperatureMonitor.c&quot; tooltip=&quot;Tutorial2/TemperatureMonitor.c&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Tutorial2/TemperatureMonitor.c&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_M9zUEGpFEeueGo-zRjDzkg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TemperatureMonitor.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;TemperatureMonitor.h&quot; partName=&quot;TemperatureMonitor.h&quot; title=&quot;TemperatureMonitor.h&quot; tooltip=&quot;Tutorial2/TemperatureMonitor.h&quot;>&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Tutorial2/TemperatureMonitor.h&quot;/>&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
@@ -340,19 +355,26 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_10xvsVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.ProblemsView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot; categoryGroup=&quot;org.eclipse.ui.ide.severity&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.problemsGenerator&quot; partName=&quot;Problems&quot;>&#xA;&lt;expanded>&#xA;&lt;category IMemento.internal.id=&quot;Errors&quot;/>&#xA;&lt;category IMemento.internal.id=&quot;Warnings&quot;/>&#xA;&lt;/expanded>&#xA;&lt;columnWidths org.eclipse.ui.ide.locationField=&quot;105&quot; org.eclipse.ui.ide.markerType=&quot;678&quot; org.eclipse.ui.ide.pathField=&quot;140&quot; org.eclipse.ui.ide.resourceField=&quot;105&quot; org.eclipse.ui.ide.severityAndDescriptionField=&quot;350&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.severityAndDescriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_2ELdoFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ProblemView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_2ELdoVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ProblemView"/>
+      <toolbar xmi:id="_2ELdoVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ProblemView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_10zk4FA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.TaskList" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Tasks" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/tasks_tsk.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.markers.TasksView"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.completionField&quot; categoryGroup=&quot;none&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.tasksGenerator&quot; partName=&quot;Tasks&quot;>&#xA;&lt;columnWidths org.eclipse.ui.ide.completionField=&quot;40&quot; org.eclipse.ui.ide.descriptionField=&quot;350&quot; org.eclipse.ui.ide.locationField=&quot;105&quot; org.eclipse.ui.ide.markerType=&quot;603&quot; org.eclipse.ui.ide.pathField=&quot;140&quot; org.eclipse.ui.ide.priorityField=&quot;35&quot; org.eclipse.ui.ide.resourceField=&quot;105&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.completionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.priorityField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.descriptionField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <menus xmi:id="_sfSegGo9EeueGo-zRjDzkg" elementId="org.eclipse.ui.views.TaskList">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_sfSegWo9EeueGo-zRjDzkg" elementId="org.eclipse.ui.views.TaskList" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_100L8FA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.console.ConsoleView"/>
@@ -370,19 +392,26 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_100L8VA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.properties.PropertySheet"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.views"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <menus xmi:id="_s8f-8Go9EeueGo-zRjDzkg" elementId="org.eclipse.ui.views.PropertySheet">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_s8f-8Wo9EeueGo-zRjDzkg" elementId="org.eclipse.ui.views.PropertySheet" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_100zAFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.contentoutline.ContentOutline"/>
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.views"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <menus xmi:id="_2AKgUFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ContentOutline">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_2AKgUVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ContentOutline"/>
+      <toolbar xmi:id="_2AKgUVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.ContentOutline" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_107gsFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.views.minimap.MinimapView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Minimap" iconURI="platform:/plugin/org.eclipse.ui.workbench.texteditor/icons/full/eview16/minimap.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.minimap.MinimapView"/>
@@ -411,19 +440,26 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_109V4FA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coverageviewer.CoverageViewer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Coverage Viewer" iconURI="platform:/plugin/com.ipl.products.eclipse.cantpp.coverageviewer/icons_ipl/viewer_green.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ipl.products.eclipse.cantpp.coverageviewer.CoverageViewer"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.ipl.products.eclipse.cantpp.coverageviewer"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Cantata</tags>
+      <menus xmi:id="_TpH2MGo9EeueGo-zRjDzkg" elementId="com.ipl.products.eclipse.cantpp.coverageviewer.CoverageViewer">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_TpH2MWo9EeueGo-zRjDzkg" elementId="com.ipl.products.eclipse.cantpp.coverageviewer.CoverageViewer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_109V4VA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coveragetree.CoverageTreeView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Coverage Results Explorer" iconURI="platform:/plugin/com.ipl.products.eclipse.cantpp.coveragetree/icons_ipl/cov_explorer_blue.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ipl.products.eclipse.cantpp.coveragetree.CoverageTreeView"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.ipl.products.eclipse.cantpp.coveragetree"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Cantata</tags>
       <menus xmi:id="_2AlXEFA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coveragetree.CoverageTreeView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_2AlXEVA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coveragetree.CoverageTreeView"/>
+      <toolbar xmi:id="_2AlXEVA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.coveragetree.CoverageTreeView" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_10-kAFA9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewID" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Test Explorer" iconURI="platform:/plugin/com.qas.cantata.eclipse.testexplorer.ui/icons_ipl/TestExplorer.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.qas.cantata.eclipse.testexplorer.ui.view.TestExplorerView"/>
@@ -431,6 +467,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Cantata</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_2DC1MFA9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.TestExplorerViewID">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -440,8 +478,14 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_10_yIFA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.core.ui.dataManager.DataManager" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Data Manager" iconURI="platform:/plugin/com.ipl.products.eclipse.cantpp.core.ui/icons_ipl/DataMan.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ipl.products.eclipse.cantpp.core.ui.dataManager.DataManager"/>
       <persistedState key="originalCompatibilityViewBundle" value="com.ipl.products.eclipse.cantpp.core.ui"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Cantata</tags>
+      <menus xmi:id="_tFN2EGo9EeueGo-zRjDzkg" elementId="com.ipl.products.eclipse.cantpp.core.ui.dataManager.DataManager">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_tFN2EWo9EeueGo-zRjDzkg" elementId="com.ipl.products.eclipse.cantpp.core.ui.dataManager.DataManager"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_10_yIVA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.testcaseeditor.ui.view.TestCaseEditorView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Test Case Editor" iconURI="platform:/plugin/com.ipl.products.eclipse.cantpp.testcaseeditor.ui/icons_ipl/TestCaseEditor.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ipl.products.eclipse.cantpp.testcaseeditor.ui.view.TestCaseEditorView"/>
@@ -453,7 +497,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_8QWsAFA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.testcaseeditor.ui.view.TestCaseEditorView" visible="false"/>
+      <toolbar xmi:id="_8QWsAFA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.testcaseeditor.ui.view.TestCaseEditorView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_10_yI1A9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.properties.TestPropertiesViewID" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Test Properties" iconURI="platform:/plugin/com.qas.cantata.eclipse.testexplorer.ui/icons_ipl/TestProperties.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.qas.cantata.eclipse.testexplorer.ui.properties.TestPropertiesView"/>
@@ -461,13 +505,11 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Cantata</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_5ZjeAFA9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.properties.TestPropertiesViewID">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_5ZjeAVA9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.properties.TestPropertiesViewID"/>
+      <toolbar xmi:id="_5ZjeAVA9EeuJBPXqjOy1qQ" elementId="com.qas.cantata.eclipse.testexplorer.ui.properties.TestPropertiesViewID" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_3XEo4FA9EeuJBPXqjOy1qQ" elementId="com.ipl.products.eclipse.cantpp.reportviewer.ReportViewer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Report Viewer" iconURI="platform:/plugin/com.ipl.products.eclipse.cantpp.reportviewer/icons_ipl/viewer_dark_blue.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewClass" value="com.ipl.products.eclipse.cantpp.reportviewer.ReportViewer"/>
@@ -500,7 +542,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1vV2EFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VSFQcFnIEeuv2IRmuHTrRw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_1apYc1A9EeuJBPXqjOy1qQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Do1CYGo9EeueGo-zRjDzkg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_1apYc1A9EeuJBPXqjOy1qQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1vWdIFA9EeuJBPXqjOy1qQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -513,7 +555,7 @@
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_1vXEMVA9EeuJBPXqjOy1qQ" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_11qggFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.cdt.ui.CElementCreationActionSet" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_11qggFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.cdt.ui.CElementCreationActionSet">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_12FXQFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -522,7 +564,7 @@
       <children xsi:type="menu:ToolBar" xmi:id="_115KAFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_11h9oFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_11h9oFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1vXEMlA9EeuJBPXqjOy1qQ" elementId="group.nav" toBeRendered="false">
@@ -531,7 +573,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1vXENFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_VSMlMFnIEeuv2IRmuHTrRw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_1anjR1A9EeuJBPXqjOy1qQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Do-MUWo9EeueGo-zRjDzkg" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_1anjR1A9EeuJBPXqjOy1qQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_1vXENVA9EeuJBPXqjOy1qQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2827,7 +2869,7 @@
   <addons xmi:id="_1aGl91A9EeuJBPXqjOy1qQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_1aGl-FA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_1aMFcFA9EeuJBPXqjOy1qQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_DSgNEWo9EeueGo-zRjDzkg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_1afAYFA9EeuJBPXqjOy1qQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_1afAYVA9EeuJBPXqjOy1qQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

@@ -1,0 +1,205 @@
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.core/.log
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.markers.snap
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.syncinfo.snap
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial5/.markers.snap
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial5/.syncinfo.snap
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/17.tree
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/17.snap
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/.metadata/.plugins/org.eclipse.cdt.core/.log
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/make_log.dat
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
+	deleted:    ../CantataPipeCMD@tmp/durable-de99d052/jenkins-log.txt
+	deleted:    ../CantataPipeCMD@tmp/durable-de99d052/script.sh
+	modified:   ../CantataTest/.metadata/.lock
+	modified:   ../CantataTest/.metadata/.log
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.core/.log
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.core/Tutorial 2.language.settings.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.core/Tutorial 5.language.settings.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.core/Tutorial2.1609956851676.pdom
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.core/Tutorial2.language.settings.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.core/Tutorial5.1609956882361.pdom
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.core/Tutorial5.language.settings.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.C
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.c
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.ui/Tutorial 2.build.log
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.ui/Tutorial 5.build.log
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.ui/Tutorial2.build.log
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.ui/dialog_settings.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/12/008ecd71c859001b1ca4b33dd59fba6b
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/1b/50961f6dc859001b1ca4b33dd59fba6b
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/22/30860e7cc859001b1ca4b33dd59fba6b
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/52/a0df867bc859001b1ca4b33dd59fba6b
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/5a/40324f7fc859001b1ca4b33dd59fba6b
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/76/b0224d76c859001b1ca4b33dd59fba6b
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/7e/50912792c859001b1ca4b33dd59fba6b
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/8/7060587cc859001b1ca4b33dd59fba6b
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/d0/e0413e6dc859001b1ca4b33dd59fba6b
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.indexes/b6/21/33/history.index
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.indexes/properties.index
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.markers
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial5/.indexes/properties.index
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+	deleted:    ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.root/7.tree
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prj-Tutorial2.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.core.prj-Tutorial5.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.debug.core.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.launchbar.core.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.debug.core/.launches/Tutorial 2_Launch_config.launch
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.debug.core/.launches/Tutorial 2_test_TemperatureMonitor_Launch_config.launch
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.debug.core/.launches/Tutorial 5_Launch_config.launch
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.debug.core/.launches/Tutorial 5_test_TemperatureMonitor_Launch_config.launch
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2021/1/2/refactorings.history
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2021/1/2/refactorings.index
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.ui.cheatsheets/com.ipl.products.eclipse.cantpp.cheatsheets.stubsTutorial.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.ui.cheatsheets/com.ipl.products.eclipse.cantpp.cheatsheets.wrappersTutorial.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.ui.cheatsheets/history.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+	modified:   ../CantataTest/.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties
+	modified:   ../CantataTest/.metadata/version.ini
+	modified:   ../CantataTest/Tutorial2/.cproject
+	modified:   ../CantataTest/Tutorial2/.metadata/.lock
+	modified:   ../CantataTest/Tutorial2/.metadata/.log
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.cdt.core/.log
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.cdt.make.core/specs.cpp
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+	modified:   ../CantataTest/Tutorial2/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+	modified:   ../CantataTest/Tutorial2/.metadata/version.ini
+	modified:   ../CantataTest/Tutorial2/.project
+	modified:   ../CantataTest/Tutorial2/.settings/language.settings.xml
+	modified:   ../CantataTest/Tutorial2/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+	modified:   ../CantataTest/Tutorial2/Cantata/configuration/build.mk
+	modified:   ../CantataTest/Tutorial2/Cantata/configuration/build_defs.mk
+	modified:   ../CantataTest/Tutorial2/Cantata/configuration/custom.mk
+	modified:   ../CantataTest/Tutorial2/Cantata/configuration/mappings.dat
+	modified:   ../CantataTest/Tutorial2/Cantata/configuration/test_defs.mk
+	modified:   ../CantataTest/Tutorial2/Cantata/configuration/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.mk
+	modified:   ../CantataTest/Tutorial2/Cantata/results/test_report.html
+	modified:   ../CantataTest/Tutorial2/Cantata/results/test_report.xml
+	modified:   ../CantataTest/Tutorial2/Cantata/results/test_summary.html
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/Makefile
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/make_errors.txt
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/make_log.dat
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/.TestScriptData/TemperatureMonitor.dat
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.csi
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/filelist.lst
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/ipg.cop
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.csi
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.exe
+	modified:   ../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
+	modified:   ../CantataTest/Tutorial2/TemperatureMonitor.c
+	modified:   ../CantataTest/Tutorial2/TemperatureMonitor.h
+	modified:   ../CantataTest/Tutorial2/ipg.cop
+	modified:   ../CantataTest/Tutorial2/makefile.targets
+	modified:   ../CantataTest/Tutorial5/.cproject
+	modified:   ../CantataTest/Tutorial5/.project
+	modified:   ../CantataTest/Tutorial5/.settings/language.settings.xml
+	modified:   ../CantataTest/Tutorial5/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+	modified:   ../CantataTest/Tutorial5/Cantata/configuration/build.mk
+	modified:   ../CantataTest/Tutorial5/Cantata/configuration/build_defs.mk
+	modified:   ../CantataTest/Tutorial5/Cantata/configuration/custom.mk
+	modified:   ../CantataTest/Tutorial5/Cantata/configuration/mappings.dat
+	modified:   ../CantataTest/Tutorial5/Cantata/configuration/test_defs.mk
+	modified:   ../CantataTest/Tutorial5/Cantata/configuration/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.mk
+	modified:   ../CantataTest/Tutorial5/Cantata/results/test_report.html
+	modified:   ../CantataTest/Tutorial5/Cantata/results/test_report.xml
+	modified:   ../CantataTest/Tutorial5/Cantata/results/test_summary.html
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/Makefile
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/make_errors.txt
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/make_log.dat
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/report_src.dat
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/.TestScriptData/TemperatureMonitor.dat
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.csi
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.o
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/filelist.lst
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/ipg.cop
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/test.mk
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.csi
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
+	modified:   ../CantataTest/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.o
+	modified:   ../CantataTest/Tutorial5/CoolingControl.h
+	modified:   ../CantataTest/Tutorial5/Debug/TemperatureMonitor.o
+	modified:   ../CantataTest/Tutorial5/SensorArray.h
+	modified:   ../CantataTest/Tutorial5/SystemController.h
+	modified:   ../CantataTest/Tutorial5/TemperatureMonitor.c
+	modified:   ../CantataTest/Tutorial5/TemperatureMonitor.h
+	modified:   ../CantataTest/Tutorial5/ipg.cop
+	modified:   ../CantataTest/Tutorial5/makefile.targets
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/18.tree
+	../CantataPipeCMD@tmp/durable-bb4ae37b/
+	../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.history/da/
+	../CantataTest/.metadata/.plugins/org.eclipse.core.resources/.root/8.tree
+	../CantataTest/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+	../CantataTest/Tutorial2/Cantata/configuration/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.mk
+	../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.cov
+	../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
+	../CantataTest/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+	../CantataTest/Tutorial2/Debug/
+
+no changes added to commit (use "git add" and/or "git commit -a")

@@ -1,0 +1,165 @@
+===========================================================================
+= Cantata Test Harness v9.1                                               =
+= (c) 2020 QA Systems GmbH                                                =
+=-------------------------------------------------------------------------=
+= Test Description: TemperatureMonitor                                    =
+=    Configuration: x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11            =
+=     Test Started: Mon Feb  8 16:45:13 2021                              =
+===========================================================================
+------------------------- Start Test: test_monitorTemperature
+
+<Insert test case description here>
+
+        Start Call Sequence Validation:
+
+        PASSED: Function: therm_getReading
+            Call Number: 1
+            Instance: above_recommended_temp
+
+        PASSED: Function: cool_increaseCooling
+            Call Number: 1
+            Instance: default
+
+        End Call Sequence Validation:
+
+        PASSED: Function: therm_getReading
+        PASSED: Function: cool_increaseCooling
+
+------------------------- End Test: test_monitorTemperature
+
+------------------------- Start Test: test_monitorTemperature_1
+
+<Insert test case description here>
+
+        Start Call Sequence Validation:
+
+        PASSED: Function: therm_getReading
+            Call Number: 1
+            Instance: critical_temp
+
+        PASSED: Function: sys_triggerCriticalShutdown
+            Call Number: 1
+            Instance: default
+
+        End Call Sequence Validation:
+
+        PASSED: Function: therm_getReading
+        PASSED: Function: sys_triggerCriticalShutdown
+
+------------------------- End Test: test_monitorTemperature_1
+
+------------------------- Start Test: test_monitorTemperature_2
+
+<Insert test case description here>
+
+        Start Call Sequence Validation:
+
+        PASSED: Function: therm_getReading
+            Call Number: 1
+            Instance: warm_temp
+
+        PASSED: Function: cool_increaseCooling
+            Call Number: 1
+            Instance: incremental_increase
+        PASSED: Check: increaseAmount = COOLING_ADJUSTMENT_STEP_SIZE
+                value: 3
+
+        End Call Sequence Validation:
+
+        PASSED: Function: therm_getReading
+        PASSED: Function: cool_increaseCooling
+
+------------------------- End Test: test_monitorTemperature_2
+
+------------------------- Start Test: COVERAGE RULE SET
+
+100% Entry Point + Statement + Call Return Coverage
+GET_COVERAGE_MIN: entry point coverage (feasible only, including catch-clauses)
+                  for "*" in context "*" = 100.0%
+
+    PASSED: Check Range: 100% Entry Point Coverage
+           actual: 100
+            lower: 100
+            upper: 100
+GET_COVERAGE_MIN: statement coverage (feasible only, including catch-clauses)
+                  for "*" in context "*" = 100.0%
+
+    PASSED: Check Range: 100% Statement Coverage
+           actual: 100
+            lower: 100
+            upper: 100
+GET_COVERAGE_MIN: call-return coverage (feasible only, including catch-clauses)
+                  for "*" in context "*" = 100.0%
+
+    PASSED: Check Range: 100% Call Return Coverage
+           actual: 100
+            lower: 100
+            upper: 100
+-----------------------------------------------------------------------------
+Coverage results for  entry point, call-return, statement, 
+                 for "*" in context "*"
+                 with executed and un-executed details
+                 feasible only, including catch-clauses
+-----------------------------------------------------------------------------
+TemperatureMonitor.c(3):monitorTemperature()
+entry point coverage details (with executed and un-executed cases)
+
+mperatureMonitor.c(3):      entry   1                                       3
+
+"monitorTemperature"                                     executed           1
+"monitorTemperature"                                  un-executed           0
+"monitorTemperature"                         entry point coverage      100.0%
+
+TemperatureMonitor.c(3):monitorTemperature()
+call-return coverage details (with executed and un-executed cases)
+
+mperatureMonitor.c(5):       call   1 (global-fn)                           3
+mperatureMonitor.c(9):       call   2 (global-fn)                           1
+peratureMonitor.c(13):       call   3 (global-fn)                           1
+peratureMonitor.c(17):       call   4 (global-fn)                           1
+
+"monitorTemperature"                                     executed           4
+"monitorTemperature"                                  un-executed           0
+"monitorTemperature"                         call-return coverage      100.0%
+
+TemperatureMonitor.c(3):monitorTemperature()
+statement coverage details (with executed and un-executed cases)
+
+mperatureMonitor.c(5):      stmnt   1 (declaration)                         3
+mperatureMonitor.c(7):      stmnt   2 (cond)                                3
+mperatureMonitor.c(9):      stmnt   3 (other)                               1
+peratureMonitor.c(11):      stmnt   4 (cond)                                2
+peratureMonitor.c(13):      stmnt   5 (other)                               1
+peratureMonitor.c(15):      stmnt   6 (cond)                                1
+peratureMonitor.c(17):      stmnt   7 (other)                               1
+
+"monitorTemperature"                                     executed           7
+"monitorTemperature"                                  un-executed           0
+"monitorTemperature"                           statement coverage      100.0%
+
+Summary by     EXECUTED     Overall                Statistics
+Coverage type  INFEASIBLES  (wavg)     avg /    min /    max /    dev /   num
+-----------------------------------------------------------------------------
+entry point            0   100.0%   100.0% / 100.0% / 100.0% /   0.0% /     1
+call-return            0   100.0%   100.0% / 100.0% / 100.0% /   0.0% /     1
+statement              0   100.0%   100.0% / 100.0% / 100.0% /   0.0% /     1
+-----------------------------------------------------------------------------
+
+
+------------------------- End Test: COVERAGE RULE SET
+
+EXPORT_COVERAGE: coverage data written to "test_TemperatureMonitor.cov"
+==================================================================================
+= Test Finished: Mon Feb  8 16:45:13 2021                                        =
+=--------------------------------------------------------------------------------=
+= Test                        Script  Checks  Checks  Checks  Call Seq     TEST  =
+= Case                        Errors  Failed  Passed  Warned  Failures    RESULT =
+=--------------------------------------------------------------------------------=
+= test_monitorTemperature          0       0       0       0         0      PASS =
+= test_monitorTemperature_1        0       0       0       0         0      PASS =
+= test_monitorTemperature_2        0       0       1       0         0      PASS =
+= COVERAGE RULE SET                0       0       3       0         0      PASS =
+= Other                            0       0       0       0         0      PASS =
+=--------------------------------------------------------------------------------=
+= TOTALS                           0       0       4       0         0      PASS =
+==================================================================================

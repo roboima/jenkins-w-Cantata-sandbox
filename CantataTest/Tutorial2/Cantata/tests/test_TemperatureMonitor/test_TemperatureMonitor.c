@@ -63,12 +63,12 @@ void test_monitorTemperature_2(int);
 /*****************************************************************************/
 /* Coverage Analysis                                                         */
 /*****************************************************************************/
-/* Coverage Rule Set: 100% Entry Point + Call Return Coverage */
+/* Coverage Rule Set: 100% Entry Point + Statement + Call Return Coverage */
 static void rule_set(char* cppca_sut,
                      char* cppca_context)
 {
     START_TEST("COVERAGE RULE SET",
-               "100% Entry Point + Call Return Coverage");
+               "100% Entry Point + Statement + Call Return Coverage");
 #ifdef CANTPP_SUBSET_DEFERRED_ANALYSIS
     TEST_SCRIPT_WARNING("Coverage Rule Set ignored in deferred analysis mode\n");
 #elif CANTPP_COVERAGE_INSTRUMENTATION_DISABLED
@@ -80,11 +80,16 @@ static void rule_set(char* cppca_sut,
                    cppca_entrypoint_cov,
                    100.0);
     
+    ANALYSIS_CHECK("100% Statement Coverage",
+                   cppca_statement_cov,
+                   100.0);
+    
     ANALYSIS_CHECK("100% Call Return Coverage",
                    cppca_callreturn_cov,
                    100.0);
     
     REPORT_COVERAGE(cppca_entrypoint_cov|
+                    cppca_statement_cov|
                     cppca_callreturn_cov,
                     cppca_sut,
                     cppca_all_details|cppca_include_catch,

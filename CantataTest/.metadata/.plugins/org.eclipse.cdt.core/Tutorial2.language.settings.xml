@@ -16,6 +16,9 @@
 					<entry kind="includePath" name="/usr/include/x86_64-linux-gnu">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
+					<entry kind="includePath" name="/${ProjName}/Cantata will NOT be used in this build">
+						<flag value="BUILTIN|READONLY|VALUE_WORKSPACE_PATH"/>
+					</entry>
 					<entry kind="includePath" name="/usr/include">
 						<flag value="BUILTIN|READONLY"/>
 					</entry>
