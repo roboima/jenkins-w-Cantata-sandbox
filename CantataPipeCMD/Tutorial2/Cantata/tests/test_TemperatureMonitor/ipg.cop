@@ -7,8 +7,8 @@
 # WARNING: Do not alter this file manually.
 #
 #tool.use=false
-#tool.testid=4f6dd600-de95-4007-a01a-18a6e342351e
+#tool.testid=82226854-f17f-4e12-b01d-ddbc53ab0d46
 "--verbose"
-"--ci:--instr:func;call;"
+"--ci:--instr:stmt;func;call;"
 
 #User Section

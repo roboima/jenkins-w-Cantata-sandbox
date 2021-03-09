@@ -1,20 +1,20 @@
 0000000FCANTPP CTG FILE0009000100000000
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003102
+#0003107
 1065
 #0098= Cantata Test Harness v9.1                                               =
 = (c) 2020 QA Systems GmbH                                                =
 
 #004c= Test Description: TemperatureMonitor                                    =
 
-#004c=    Configuration: x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11            =
+#004c=    Configuration: test                                                  =
 
-#004c=     Test Started: Sat Feb 13 17:18:09 2021                              =
+#004c=     Test Started: Tue Mar  9 09:32:52 2021                              =
 
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003137
+#0003142
 2068
 #0017test_monitorTemperature
 #0023<Insert test case description here>
@@ -22,10 +22,10 @@
 0025
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003212
+#0003217
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003212
+#0003217
 52be
 0005
 0023
@@ -37,10 +37,10 @@
 #0016above_recommended_temp
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003233
+#0003238
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003233
+#0003238
 52be
 0005
 0023
@@ -52,7 +52,7 @@
 #0007default
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003150
+#0003155
 56bd
 001a
 0005
@@ -65,7 +65,7 @@
 #0017test_monitorTemperature
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003163
+#0003168
 2068
 #0019test_monitorTemperature_1
 #0023<Insert test case description here>
@@ -73,10 +73,10 @@
 0025
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003212
+#0003217
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003212
+#0003217
 52be
 0005
 0023
@@ -88,10 +88,10 @@
 #000dcritical_temp
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003249
+#0003254
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003249
+#0003254
 52be
 0005
 0023
@@ -103,7 +103,7 @@
 #0007default
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003176
+#0003181
 56bd
 001a
 0005
@@ -116,7 +116,7 @@
 #0019test_monitorTemperature_1
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003189
+#0003194
 2068
 #0019test_monitorTemperature_2
 #0023<Insert test case description here>
@@ -124,10 +124,10 @@
 0025
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003212
+#0003217
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003212
+#0003217
 52be
 0005
 0023
@@ -139,10 +139,10 @@
 #0009warm_temp
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003233
+#0003238
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003233
+#0003238
 52be
 0005
 0023
@@ -159,12 +159,12 @@
 
 50ba
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003239
+#0003244
 #0006PASS: 
 #002dincreaseAmount = COOLING_ADJUSTMENT_STEP_SIZE
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
-#0003202
+#0003207
 56bd
 001a
 0005
@@ -180,7 +180,7 @@
 #000270
 2068
 #0011COVERAGE RULE SET
-#0027100% Entry Point + Call Return Coverage
+#0033100% Entry Point + Statement + Call Return Coverage
 4077
 0005
 0010
@@ -202,7 +202,7 @@
 4077
 0005
 0010
-#0019100% Call Return Coverage
+#0017100% Statement Coverage
 000e
 #0004100
 
@@ -216,11 +216,29 @@
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
 #000285
 #0006PASS: 
+#0017100% Statement Coverage
+4077
+0005
+0010
+#0019100% Call Return Coverage
+000e
+#0004100
+
+0013
+#0004100
+
+0015
+#0004100
+
+50ba
+#0031test_TemperatureMonitor/test_TemperatureMonitor.c
+#000289
+#0006PASS: 
 #0019100% Call Return Coverage
 8069
 #0011COVERAGE RULE SET
 9066
-#0053= Test Finished: Sat Feb 13 17:18:10 2021                                        =
+#0053= Test Finished: Tue Mar  9 09:32:52 2021                                        =
 
 #0053= test_monitorTemperature          0       0       0       0         0      PASS =
 
@@ -228,9 +246,9 @@
 
 #0053= test_monitorTemperature_2        0       0       1       0         0      PASS =
 
-#0053= COVERAGE RULE SET                0       0       2       0         0      PASS =
+#0053= COVERAGE RULE SET                0       0       3       0         0      PASS =
 
 #0053= Other                            0       0       0       0         0      PASS =
 
-#0053= TOTALS                           0       0       3       0         0      PASS =
+#0053= TOTALS                           0       0       4       0         0      PASS =
 

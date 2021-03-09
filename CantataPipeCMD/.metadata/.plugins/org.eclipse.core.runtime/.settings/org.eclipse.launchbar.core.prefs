@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:Tutorial 5_Launch_config,org.eclipse.launchbar.core.descriptorType.default\:Tutorial 5_test_TemperatureMonitor_Launch_config,org.eclipse.launchbar.core.descriptorType.default\:Tutorial 2_test_TemperatureMonitor_Launch_config,org.eclipse.launchbar.core.descriptorType.default\:Tutorial 2_Launch_config
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Tutorial 2_Launch_config,org.eclipse.launchbar.core.descriptorType.default\:Tutorial 2_test_TemperatureMonitor_Launch_config
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Tutorial\ 2_Launch_config/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Tutorial\ 2_Launch_config/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

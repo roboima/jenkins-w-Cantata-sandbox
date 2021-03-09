@@ -63,5 +63,4 @@ custom_post_build :
 # This rule is automatically executed at the end of every individual test build
 .PHONY: %/custom_post_build
 %/custom_post_build :
-# PUSH_TO_SERVER=1
 	

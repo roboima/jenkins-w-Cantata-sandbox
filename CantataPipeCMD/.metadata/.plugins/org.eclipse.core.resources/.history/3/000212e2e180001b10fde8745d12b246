@@ -1,0 +1,267 @@
+/*****************************************************************************/
+/*                            Cantata Test Script                            */
+/*****************************************************************************/
+/*
+ *    Filename: test_TemperatureMonitor.c
+ *    Author: jenkins
+ *    Generated on: 09-Mar-2021 09:11:58
+ *    Generated from: TemperatureMonitor.c
+ */
+/*****************************************************************************/
+/* Environment Definition                                                    */
+/*****************************************************************************/
+
+#define TEST_SCRIPT_GENERATOR 2
+
+/* Include files from software under test */
+#include "../../../TemperatureMonitor.h"
+
+#define CANTATA_DEFAULT_VALUE 0 /* Default value of variables & stub returns */
+
+#include <cantpp.h>  /* Cantata Directives */
+/* pragma qas cantata testscript start */
+/*****************************************************************************/
+/* Global Data Definitions                                                   */
+/*****************************************************************************/
+
+/* Global Functions */
+float therm_getReading();
+void cool_increaseCooling(int increaseAmount);
+void sys_triggerCriticalShutdown();
+extern void monitorTemperature();
+
+/* Global data */
+/* None */
+
+/* Expected variables for global data */
+/* None */
+
+/* This function initialises global data to default values. This function       */
+/* is called by every test case so must not contain test case specific settings */
+static void initialise_global_data(){
+    /* No global data */
+}
+
+/* This function copies the global data settings into expected variables for */
+/* use in check_global_data(). It is called by every test case so must not   */
+/* contain test case specific settings.                                      */
+static void initialise_expected_global_data(){
+    /* No global data */
+}
+
+/* This function checks global data against the expected values. */
+static void check_global_data(){
+    /* No global data */
+}
+
+/* Prototypes for test functions */
+void run_tests();
+void test_monitorTemperature(int);
+void test_monitorTemperature_1(int);
+void test_monitorTemperature_2(int);
+
+/*****************************************************************************/
+/* Coverage Analysis                                                         */
+/*****************************************************************************/
+/* Coverage Rule Set: DO-178B/C Level C */
+static void rule_set(char* cppca_sut,
+                     char* cppca_context)
+{
+    START_TEST("COVERAGE RULE SET",
+               "DO-178B/C Level C");
+#ifdef CANTPP_SUBSET_DEFERRED_ANALYSIS
+    TEST_SCRIPT_WARNING("Coverage Rule Set ignored in deferred analysis mode\n");
+#elif CANTPP_COVERAGE_INSTRUMENTATION_DISABLED
+    TEST_SCRIPT_WARNING("Coverage Instrumentation has been disabled\n");
+#elif CANTPP_INSTRUMENTATION_DISABLED
+    TEST_SCRIPT_WARNING("Instrumentation has been disabled\n");
+#else
+    ANALYSIS_CHECK("100% Entry Point Coverage",
+                   cppca_entrypoint_cov,
+                   100.0);
+    
+    ANALYSIS_CHECK("100% Statement Coverage",
+                   cppca_statement_cov,
+                   100.0);
+    
+    ANALYSIS_CHECK("100% Call Return Coverage",
+                   cppca_callreturn_cov,
+                   100.0);
+    
+    REPORT_COVERAGE(cppca_entrypoint_cov|
+                    cppca_statement_cov|
+                    cppca_callreturn_cov,
+                    cppca_sut,
+                    cppca_all_details|cppca_include_catch,
+                    cppca_context);
+#endif
+    END_TEST();
+}
+
+/*****************************************************************************/
+/* Program Entry Point                                                       */
+/*****************************************************************************/
+int main()
+{
+    OPEN_LOG("test_TemperatureMonitor.ctr", false, 100);
+    START_SCRIPT("TemperatureMonitor", true);
+
+    run_tests();
+
+    return !END_SCRIPT(true);
+}
+
+/*****************************************************************************/
+/* Test Control                                                              */
+/*****************************************************************************/
+/* run_tests() contains calls to the individual test cases, you can turn test*/
+/* cases off by adding comments*/
+void run_tests()
+{
+    test_monitorTemperature(1);
+    test_monitorTemperature_1(1);
+    test_monitorTemperature_2(1);
+
+    rule_set("*", "*");
+    EXPORT_COVERAGE("test_TemperatureMonitor.cov", cppca_export_replace);
+}
+
+/*****************************************************************************/
+/* Test Cases                                                                */
+/*****************************************************************************/
+
+void test_monitorTemperature(int doIt){
+if (doIt) {
+    /* Set global data */
+    initialise_global_data();
+    /* Set expected values for global data checks */
+    initialise_expected_global_data();
+    {
+    /* Test case data declarations */
+
+    START_TEST("test_monitorTemperature",
+               "<Insert test case description here>");
+
+        /* Expected Call Sequence  */
+        EXPECT_CALL("therm_getReading", "others", "above_recommended_temp");
+        EXPECT_CALL("cool_increaseCooling", "others", "default");
+
+            /* Call SUT */
+            monitorTemperature();
+
+            /* Test case checks */
+            /* Checks on global data */
+            check_global_data();
+        END_CALLS();
+    END_TEST();
+}}}
+
+void test_monitorTemperature_1(int doIt){
+if (doIt) {
+    /* Set global data */
+    initialise_global_data();
+    /* Set expected values for global data checks */
+    initialise_expected_global_data();
+    {
+    /* Test case data declarations */
+
+    START_TEST("test_monitorTemperature_1",
+               "<Insert test case description here>");
+
+        /* Expected Call Sequence  */
+        EXPECT_CALL("therm_getReading", "others", "critical_temp");
+        EXPECT_CALL("sys_triggerCriticalShutdown", "others", "default");
+
+            /* Call SUT */
+            monitorTemperature();
+
+            /* Test case checks */
+            /* Checks on global data */
+            check_global_data();
+        END_CALLS();
+    END_TEST();
+}}}
+
+void test_monitorTemperature_2(int doIt){
+if (doIt) {
+    /* Set global data */
+    initialise_global_data();
+    /* Set expected values for global data checks */
+    initialise_expected_global_data();
+    {
+    /* Test case data declarations */
+
+    START_TEST("test_monitorTemperature_2",
+               "<Insert test case description here>");
+
+        /* Expected Call Sequence  */
+        EXPECT_CALL("therm_getReading", "others", "warm_temp");
+        EXPECT_CALL("cool_increaseCooling", "others", "incremental_increase");
+
+            /* Call SUT */
+            monitorTemperature();
+
+            /* Test case checks */
+            /* Checks on global data */
+            check_global_data();
+        END_CALLS();
+    END_TEST();
+}}}
+
+/*****************************************************************************/
+/* Call Interface Control                                                    */
+/*****************************************************************************/
+
+/* Stub for function therm_getReading */
+float therm_getReading(){
+    REGISTER_CALL("therm_getReading");
+
+    IF_INSTANCE("default") {
+        return CANTATA_DEFAULT_VALUE;
+    }
+    IF_INSTANCE("above_recommended_temp") {
+        return 70;
+    }
+    IF_INSTANCE("critical_temp") {
+        return 90;
+    }
+    IF_INSTANCE("warm_temp") {
+        return 50;
+    }
+
+    LOG_SCRIPT_ERROR("Call instance not defined.");
+    return CANTATA_DEFAULT_VALUE;
+}
+
+/* Stub for function cool_increaseCooling */
+void cool_increaseCooling(int increaseAmount){
+    REGISTER_CALL("cool_increaseCooling");
+
+    IF_INSTANCE("default") {
+        return;
+    }
+    IF_INSTANCE("incremental_increase") {
+        CHECK_S_INT(increaseAmount, COOLING_ADJUSTMENT_STEP_SIZE);
+        return;
+    }
+
+    LOG_SCRIPT_ERROR("Call instance not defined.");
+    return;
+}
+
+/* Stub for function sys_triggerCriticalShutdown */
+void sys_triggerCriticalShutdown(){
+    REGISTER_CALL("sys_triggerCriticalShutdown");
+
+    IF_INSTANCE("default") {
+        return;
+    }
+
+    LOG_SCRIPT_ERROR("Call instance not defined.");
+    return;
+}
+
+/* pragma qas cantata testscript end */
+/*****************************************************************************/
+/* End of test script                                                        */
+/*****************************************************************************/

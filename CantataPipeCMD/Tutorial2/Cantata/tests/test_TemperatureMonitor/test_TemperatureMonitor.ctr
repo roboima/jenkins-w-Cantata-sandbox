@@ -3,8 +3,8 @@
 = (c) 2020 QA Systems GmbH                                                =
 =-------------------------------------------------------------------------=
 = Test Description: TemperatureMonitor                                    =
-=    Configuration: x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11            =
-=     Test Started: Sat Feb 13 17:18:09 2021                              =
+=    Configuration: test                                                  =
+=     Test Started: Tue Mar  9 09:32:52 2021                              =
 ===========================================================================
 ------------------------- Start Test: test_monitorTemperature
 
@@ -73,11 +73,18 @@
 
 ------------------------- Start Test: COVERAGE RULE SET
 
-100% Entry Point + Call Return Coverage
+100% Entry Point + Statement + Call Return Coverage
 GET_COVERAGE_MIN: entry point coverage (feasible only, including catch-clauses)
                   for "*" in context "*" = 100.0%
 
     PASSED: Check Range: 100% Entry Point Coverage
+           actual: 100
+            lower: 100
+            upper: 100
+GET_COVERAGE_MIN: statement coverage (feasible only, including catch-clauses)
+                  for "*" in context "*" = 100.0%
+
+    PASSED: Check Range: 100% Statement Coverage
            actual: 100
             lower: 100
             upper: 100
@@ -89,7 +96,7 @@ GET_COVERAGE_MIN: call-return coverage (feasible only, including catch-clauses)
             lower: 100
             upper: 100
 -----------------------------------------------------------------------------
-Coverage results for  entry point, call-return, 
+Coverage results for  entry point, call-return, statement, 
                  for "*" in context "*"
                  with executed and un-executed details
                  feasible only, including catch-clauses
@@ -115,11 +122,27 @@ peratureMonitor.c(17):       call   4 (global-fn)                           1
 "monitorTemperature"                                  un-executed           0
 "monitorTemperature"                         call-return coverage      100.0%
 
+TemperatureMonitor.c(3):monitorTemperature()
+statement coverage details (with executed and un-executed cases)
+
+mperatureMonitor.c(5):      stmnt   1 (declaration)                         3
+mperatureMonitor.c(7):      stmnt   2 (cond)                                3
+mperatureMonitor.c(9):      stmnt   3 (other)                               1
+peratureMonitor.c(11):      stmnt   4 (cond)                                2
+peratureMonitor.c(13):      stmnt   5 (other)                               1
+peratureMonitor.c(15):      stmnt   6 (cond)                                1
+peratureMonitor.c(17):      stmnt   7 (other)                               1
+
+"monitorTemperature"                                     executed           7
+"monitorTemperature"                                  un-executed           0
+"monitorTemperature"                           statement coverage      100.0%
+
 Summary by     EXECUTED     Overall                Statistics
 Coverage type  INFEASIBLES  (wavg)     avg /    min /    max /    dev /   num
 -----------------------------------------------------------------------------
 entry point            0   100.0%   100.0% / 100.0% / 100.0% /   0.0% /     1
 call-return            0   100.0%   100.0% / 100.0% / 100.0% /   0.0% /     1
+statement              0   100.0%   100.0% / 100.0% / 100.0% /   0.0% /     1
 -----------------------------------------------------------------------------
 
 
@@ -127,7 +150,7 @@ call-return            0   100.0%   100.0% / 100.0% / 100.0% /   0.0% /     1
 
 EXPORT_COVERAGE: coverage data written to "test_TemperatureMonitor.cov"
 ==================================================================================
-= Test Finished: Sat Feb 13 17:18:10 2021                                        =
+= Test Finished: Tue Mar  9 09:32:52 2021                                        =
 =--------------------------------------------------------------------------------=
 = Test                        Script  Checks  Checks  Checks  Call Seq     TEST  =
 = Case                        Errors  Failed  Passed  Warned  Failures    RESULT =
@@ -135,8 +158,8 @@ EXPORT_COVERAGE: coverage data written to "test_TemperatureMonitor.cov"
 = test_monitorTemperature          0       0       0       0         0      PASS =
 = test_monitorTemperature_1        0       0       0       0         0      PASS =
 = test_monitorTemperature_2        0       0       1       0         0      PASS =
-= COVERAGE RULE SET                0       0       2       0         0      PASS =
+= COVERAGE RULE SET                0       0       3       0         0      PASS =
 = Other                            0       0       0       0         0      PASS =
 =--------------------------------------------------------------------------------=
-= TOTALS                           0       0       3       0         0      PASS =
+= TOTALS                           0       0       4       0         0      PASS =
 ==================================================================================

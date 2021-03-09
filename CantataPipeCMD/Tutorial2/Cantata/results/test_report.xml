@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="US-ASCII" standalone="no"?>
-<?xml-stylesheet href="file:/opt/qa_systems/cantata/configuration/org.eclipse.osgi/9/0/.cp/xslt/HTML%20Detailed%20Report.xslt" type="text/xsl"?><testReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated="13th February 2021 17:18" xsi:noNamespaceSchemaLocation="test_report.xsd">
+<?xml-stylesheet href="file:/opt/qa_systems/cantata/configuration/org.eclipse.osgi/9/0/.cp/xslt/HTML%20Detailed%20Report.xslt" type="text/xsl"?><testReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" generated=" 9th March 2021 09:32" xsi:noNamespaceSchemaLocation="test_report.xsd">
   <project name="Tutorial2">
     <testScriptInfo>
       <summary status="passed">
@@ -9,7 +9,7 @@
         <testCases>4</testCases>
         <testCasesPassed>4</testCasesPassed>
         <testCasesFailed>0</testCasesFailed>
-        <checksPassed>3</checksPassed>
+        <checksPassed>4</checksPassed>
         <checksFailed>0</checksFailed>
         <checksWarning>0</checksWarning>
         <scriptDirectives>24</scriptDirectives>
@@ -22,6 +22,7 @@
     <coverageInfo>
       <coverageAchieved>
         <entryPoint>100</entryPoint>
+        <statement>100</statement>
         <callReturn>100</callReturn>
       </coverageAchieved>
     </coverageInfo>
@@ -34,6 +35,14 @@
           <uninstrumentedFunctions>19</uninstrumentedFunctions>
         </targetInfo>
       </entryPoint>
+      <statement enabled="true">
+        <targetInfo>
+          <targetPercent>100</targetPercent>
+          <functionsPassed>1</functionsPassed>
+          <totalFunctions>1</totalFunctions>
+          <uninstrumentedFunctions>19</uninstrumentedFunctions>
+        </targetInfo>
+      </statement>
       <callReturn enabled="true">
         <targetInfo>
           <targetPercent>100</targetPercent>
@@ -50,15 +59,15 @@
         <testScriptName>TemperatureMonitor</testScriptName>
         <testScriptDescription>= Cantata Test Harness v9.1                                               =
 = (c) 2020 QA Systems GmbH                                                =
-=    Configuration: x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11            =
-=     Test Started: Sat Feb 13 17:18:09 2021                              =</testScriptDescription>
+=    Configuration: test                                                  =
+=     Test Started: Tue Mar  9 09:32:52 2021                              =</testScriptDescription>
         <testScriptFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
       </info>
       <summary status="passed">
         <testCases>4</testCases>
         <testCasesPassed>4</testCasesPassed>
         <testCasesFailed>0</testCasesFailed>
-        <checksPassed>3</checksPassed>
+        <checksPassed>4</checksPassed>
         <checksFailed>0</checksFailed>
         <checksWarning>0</checksWarning>
         <scriptDirectives>24</scriptDirectives>
@@ -83,7 +92,7 @@
             <scriptDirective>
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>137</lineNumber>
+                <lineNumber>142</lineNumber>
               </position>
               <name>Start Call Sequence Validation</name>
               <description/>
@@ -91,7 +100,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>212</lineNumber>
+                <lineNumber>217</lineNumber>
               </position>
               <name>Function: therm_getReading</name>
               <description/>
@@ -99,7 +108,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>212</lineNumber>
+                <lineNumber>217</lineNumber>
               </position>
               <name>Instance: above_recommended_temp</name>
               <description/>
@@ -107,7 +116,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>233</lineNumber>
+                <lineNumber>238</lineNumber>
               </position>
               <name>Function: cool_increaseCooling</name>
               <description/>
@@ -115,7 +124,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>233</lineNumber>
+                <lineNumber>238</lineNumber>
               </position>
               <name>Instance: default</name>
               <description/>
@@ -123,7 +132,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>150</lineNumber>
+                <lineNumber>155</lineNumber>
               </position>
               <name>End Call Sequence Validation </name>
               <description/>
@@ -131,7 +140,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>150</lineNumber>
+                <lineNumber>155</lineNumber>
               </position>
               <name>Function:  therm_getReading</name>
               <description/>
@@ -139,7 +148,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>150</lineNumber>
+                <lineNumber>155</lineNumber>
               </position>
               <name>Function:  cool_increaseCooling</name>
               <description/>
@@ -161,7 +170,7 @@
             <scriptDirective>
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>163</lineNumber>
+                <lineNumber>168</lineNumber>
               </position>
               <name>Start Call Sequence Validation</name>
               <description/>
@@ -169,7 +178,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>212</lineNumber>
+                <lineNumber>217</lineNumber>
               </position>
               <name>Function: therm_getReading</name>
               <description/>
@@ -177,7 +186,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>212</lineNumber>
+                <lineNumber>217</lineNumber>
               </position>
               <name>Instance: critical_temp</name>
               <description/>
@@ -185,7 +194,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>249</lineNumber>
+                <lineNumber>254</lineNumber>
               </position>
               <name>Function: sys_triggerCriticalShutdown</name>
               <description/>
@@ -193,7 +202,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>249</lineNumber>
+                <lineNumber>254</lineNumber>
               </position>
               <name>Instance: default</name>
               <description/>
@@ -201,7 +210,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>176</lineNumber>
+                <lineNumber>181</lineNumber>
               </position>
               <name>End Call Sequence Validation </name>
               <description/>
@@ -209,7 +218,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>176</lineNumber>
+                <lineNumber>181</lineNumber>
               </position>
               <name>Function:  therm_getReading</name>
               <description/>
@@ -217,7 +226,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>176</lineNumber>
+                <lineNumber>181</lineNumber>
               </position>
               <name>Function:  sys_triggerCriticalShutdown</name>
               <description/>
@@ -239,7 +248,7 @@
             <scriptDirective>
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>189</lineNumber>
+                <lineNumber>194</lineNumber>
               </position>
               <name>Start Call Sequence Validation</name>
               <description/>
@@ -247,7 +256,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>212</lineNumber>
+                <lineNumber>217</lineNumber>
               </position>
               <name>Function: therm_getReading</name>
               <description/>
@@ -255,7 +264,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>212</lineNumber>
+                <lineNumber>217</lineNumber>
               </position>
               <name>Instance: warm_temp</name>
               <description/>
@@ -263,7 +272,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>233</lineNumber>
+                <lineNumber>238</lineNumber>
               </position>
               <name>Function: cool_increaseCooling</name>
               <description/>
@@ -271,7 +280,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>233</lineNumber>
+                <lineNumber>238</lineNumber>
               </position>
               <name>Instance: incremental_increase</name>
               <description/>
@@ -279,7 +288,7 @@
             <check status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>239</lineNumber>
+                <lineNumber>244</lineNumber>
               </position>
               <name>increaseAmount = COOLING_ADJUSTMENT_STEP_SIZE</name>
               <expectedValue>3</expectedValue>
@@ -288,7 +297,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>202</lineNumber>
+                <lineNumber>207</lineNumber>
               </position>
               <name>End Call Sequence Validation </name>
               <description/>
@@ -296,7 +305,7 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>202</lineNumber>
+                <lineNumber>207</lineNumber>
               </position>
               <name>Function:  therm_getReading</name>
               <description/>
@@ -304,16 +313,16 @@
             <callSequenceScriptDir status="passed">
               <position>
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
-                <lineNumber>202</lineNumber>
+                <lineNumber>207</lineNumber>
               </position>
               <name>Function:  cool_increaseCooling</name>
               <description/>
             </callSequenceScriptDir>
           </contents>
         </testCase>
-        <testCase description="100% Entry Point + Call Return Coverage" title="COVERAGE RULE SET">
+        <testCase description="100% Entry Point + Statement + Call Return Coverage" title="COVERAGE RULE SET">
           <summary status="passed">
-            <checksPassed>2</checksPassed>
+            <checksPassed>3</checksPassed>
             <checksFailed>0</checksFailed>
             <checksWarning>0</checksWarning>
             <scriptDirectives>0</scriptDirectives>
@@ -338,6 +347,16 @@
                 <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
                 <lineNumber>85</lineNumber>
               </position>
+              <name>100% Statement Coverage</name>
+              <lowerValue>100</lowerValue>
+              <upperValue>100</upperValue>
+              <actualValue>100</actualValue>
+            </checkRange>
+            <checkRange status="passed">
+              <position>
+                <sourceFile name="test_TemperatureMonitor.c" path="test_TemperatureMonitor/"/>
+                <lineNumber>89</lineNumber>
+              </position>
               <name>100% Call Return Coverage</name>
               <lowerValue>100</lowerValue>
               <upperValue>100</upperValue>
@@ -353,6 +372,7 @@
       <fileCoverage>
         <coverageAchieved>
           <entryPoint>100</entryPoint>
+          <statement>100</statement>
           <callReturn>100</callReturn>
         </coverageAchieved>
       </fileCoverage>
@@ -360,6 +380,7 @@
         <function name="monitorTemperature()">
           <coverageAchieved>
             <entryPoint>100</entryPoint>
+            <statement>100</statement>
             <callReturn>100</callReturn>
           </coverageAchieved>
         </function>

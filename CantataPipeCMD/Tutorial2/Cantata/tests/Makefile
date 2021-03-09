@@ -6,7 +6,7 @@
 
 # Handle the definition of the CONFIG variable, using a default value and raising errors if it doesn't exist.
 ifndef CONFIG
-CONFIG := x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11
+CONFIG := test
 endif
 
 CONFIG_MAKEFILE := ../configuration/$(CONFIG).mk

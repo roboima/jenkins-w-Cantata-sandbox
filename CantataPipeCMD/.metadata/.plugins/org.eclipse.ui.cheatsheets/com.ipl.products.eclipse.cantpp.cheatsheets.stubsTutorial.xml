@@ -19,19 +19,17 @@
 <completed item="16"/>
 <completed item="17"/>
 <completed item="18"/>
-<completed item="19"/>
 <expanded item="19"/>
-<CSMData key="configureFirstStubsResult" value="Configuration of the instances for the first test case has been completed for you."/>
+<CSMData key="createSecondTestCaseResult" value="The second test case has been created and configured for you."/>
 <CSMData key="removeStubResult" value="The expected call sequence has been configured for you."/>
-<CSMData key="configureThirdWrapperInstanceResult" value="Configuration of the instances for the third test case has been completed for you."/>
-<CSMData key="setupProjectResult" value="The project has been created and the SUT has been imported."/>
-<CSMData key="checkProjectResult" value="Congratulations - you have completed the Stubs Tutorial. To continue learning about Cantata&apos;s features, select another Tutorial."/>
+<CSMData key="generateTSResult" value="A Test Script has been created."/>
+<CSMData key="configureFirstStubsResult" value="Configuration of the instances for the first test case has been completed for you."/>
+<CSMData key="fixTheCodeResult" value="Code fixed."/>
 <CSMData key="createFirstTestCaseResult" value="The first test case has been created for you."/>
-<CSMData key="generateTSResult" value="It looks like this step has already been completed correctly."/>
-<CSMData key="createThirdTestCaseResult" value="The third test case has been created and configured for you."/>
-<CSMData key="runTestResult" value="Running tests..."/>
 <CSMData key="runTestResult3" value="Running tests..."/>
 <CSMData key="runTestResult2" value="Running tests..."/>
-<CSMData key="createSecondTestCaseResult" value="The second test case has been created and configured for you."/>
-<CSMData key="fixTheCodeResult" value="Code fixed."/>
+<CSMData key="configureThirdWrapperInstanceResult" value="Configuration of the instances for the third test case has been completed for you."/>
+<CSMData key="setupProjectResult" value="The project has been created and the SUT has been imported."/>
+<CSMData key="createThirdTestCaseResult" value="The third test case has been created and configured for you."/>
+<CSMData key="runTestResult" value="Running tests..."/>
 </cheatsheetState>
