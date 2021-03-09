@@ -1,0 +1,30 @@
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.markers.snap
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.syncinfo.snap
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/4.snap
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.ui.cheatsheets/com.ipl.products.eclipse.cantpp.cheatsheets.stubsTutorial.xml
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/.metadata/.plugins/org.eclipse.cdt.core/.log
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/make_log.dat
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
+	deleted:    ../CantataPipeCMD@tmp/durable-54c36c4e/jenkins-log.txt
+	deleted:    ../CantataPipeCMD@tmp/durable-54c36c4e/script.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../CantataPipeCMD@tmp/durable-734844e5/
+
+no changes added to commit (use "git add" and/or "git commit -a")
