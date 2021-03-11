@@ -22,3 +22,10 @@ Cantata Version,UserName,NumberofTests,Executable,Compile,Link,Run,Passed,Failed
 ,,1,test_TemperatureMonitor,0,0,1,0,0
 ,,1,test_TemperatureMonitor,0,0,1,1,0
 ,,1,test_TemperatureMonitor,0,0,0,1,0
+,,1,test_TemperatureMonitor,1,0,0,0,0
+,,1,test_TemperatureMonitor,1,0,0,0,0
+,,1,test_TemperatureMonitor,1,0,0,1,0
+,,1,test_TemperatureMonitor,0,1,0,1,0
+,,1,test_TemperatureMonitor,0,0,1,0,0
+,,1,test_TemperatureMonitor,0,0,1,1,0
+,,1,test_TemperatureMonitor,0,0,0,1,0

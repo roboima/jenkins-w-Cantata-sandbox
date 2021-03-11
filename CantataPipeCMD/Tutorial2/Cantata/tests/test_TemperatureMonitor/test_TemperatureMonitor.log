@@ -303,10 +303,10 @@ Running test_TemperatureMonitor ...
 = Test Description: TemperatureMonitor                                    =
 =         Log File: test_TemperatureMonitor.ctr                           =
 =    Configuration: test                                                  =
-=     Test Started: Tue Mar  9 13:25:42 2021                              =
+=     Test Started: Thu Mar 11 10:22:32 2021                              =
 ===========================================================================
 ==================================================================================
-= Test Finished: Tue Mar  9 13:25:42 2021                                        =
+= Test Finished: Thu Mar 11 10:22:32 2021                                        =
 =--------------------------------------------------------------------------------=
 = Test                        Script  Checks  Checks  Checks  Call Seq     TEST  =
 = Case                        Errors  Failed  Passed  Warned  Failures    RESULT =

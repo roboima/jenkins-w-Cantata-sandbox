@@ -10,7 +10,7 @@
 
 #004c=    Configuration: test                                                  =
 
-#004c=     Test Started: Tue Mar  9 13:25:42 2021                              =
+#004c=     Test Started: Thu Mar 11 10:22:32 2021                              =
 
 00d5
 #0031test_TemperatureMonitor/test_TemperatureMonitor.c
@@ -238,7 +238,7 @@
 8069
 #0011COVERAGE RULE SET
 9066
-#0053= Test Finished: Tue Mar  9 13:25:42 2021                                        =
+#0053= Test Finished: Thu Mar 11 10:22:32 2021                                        =
 
 #0053= test_monitorTemperature          0       0       0       0         0      PASS =
 
