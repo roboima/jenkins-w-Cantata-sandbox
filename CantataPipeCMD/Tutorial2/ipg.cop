@@ -8,13 +8,13 @@
 #tool.use=true
 #tool.tests=Cantata
 #tool.version=2
-#old.dir=/home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial 2/
-#new.dir=/home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/
+#old.dir=/home/roboima/workspace/jenkins/
+#new.dir=/home/roboima/workspace/jenkins/CantataTest/
 "--analyse"
 "--verbose"
 "--parse:--line_directives"
 "--parse:-W2"
 "--sm:--call_seq_code"
-"--comp:test"
+"--comp:x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11"
 
 #User Section

@@ -1,35 +1,35 @@
-!SESSION 2021-03-09 08:53:36.779 -----------------------------------------------
+!SESSION 2021-08-05 09:00:46.777 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_51
 java.vendor=Oracle Corporation
 BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 Command-line arguments:  -os linux -ws gtk -arch x86_64
 
-!ENTRY org.eclipse.ui 2 0 2021-03-09 08:53:44.892
+!ENTRY org.eclipse.ui 2 0 2021-08-05 09:17:12.824
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 08:53:44.892
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-08-05 09:17:12.824
 !MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
 
-!ENTRY org.eclipse.ui 2 0 2021-03-09 08:53:45.355
+!ENTRY org.eclipse.ui 2 0 2021-08-05 09:17:13.273
 !MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 08:53:45.355
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-08-05 09:17:13.273
 !MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
 
-!ENTRY org.eclipse.ui 4 4 2021-03-09 08:53:48.157
+!ENTRY org.eclipse.ui 4 4 2021-08-05 09:17:15.947
 !MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
 
-!ENTRY org.eclipse.ui 4 4 2021-03-09 08:53:48.157
+!ENTRY org.eclipse.ui 4 4 2021-08-05 09:17:15.948
 !MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ResourceNavigator.
 
-!ENTRY org.eclipse.jface 2 0 2021-03-09 08:53:51.988
+!ENTRY org.eclipse.jface 2 0 2021-08-05 09:17:19.186
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 08:53:51.988
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-05 09:17:19.186
 !MESSAGE A conflict occurred for ALT+CTRL+S:
 Binding(ALT+CTRL+S,
 	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScript,Test Script Wizard,
 		,
 		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@485dfac9,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@201f0e84,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
@@ -37,17 +37,17 @@ Binding(ALT+CTRL+S,
 	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.sort.lines,Sort Lines,
 		Sort selected lines alphabetically,
 		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6419726f,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5629e904,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.cdt.ui.cEditorScope,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 08:53:51.988
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-05 09:17:19.186
 !MESSAGE A conflict occurred for ALT+CTRL+H:
 Binding(ALT+CTRL+H,
 	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScriptUsingHeaderFile,TDD Test Script,
 		,
 		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d4a1d2c,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d7914a5,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
@@ -55,7 +55,7 @@ Binding(ALT+CTRL+H,
 	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
 		Opens the call hierarchy for the selected element,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63f093a,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40fd25c7,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.cdt.ui.cEditorScope,,,system)
@@ -63,439 +63,86 @@ Binding(ALT+CTRL+H,
 	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
 		Open a call hierarchy on the selected element,
 		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21132086,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2021-03-09 09:04:53.533 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=1.8.0_51
-java.vendor=Oracle Corporation
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY org.eclipse.ui 2 0 2021-03-09 09:04:59.640
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 09:04:59.640
-!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
-
-!ENTRY org.eclipse.ui 2 0 2021-03-09 09:05:00.091
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 09:05:00.091
-!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
-
-!ENTRY org.eclipse.jface 2 0 2021-03-09 09:05:07.357
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 09:05:07.357
-!MESSAGE A conflict occurred for ALT+CTRL+S:
-Binding(ALT+CTRL+S,
-	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScript,Test Script Wizard,
-		,
-		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2746bc43,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
-Binding(ALT+CTRL+S,
-	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.sort.lines,Sort Lines,
-		Sort selected lines alphabetically,
-		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16d31c48,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.cdt.ui.cEditorScope,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 09:05:07.357
-!MESSAGE A conflict occurred for ALT+CTRL+H:
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScriptUsingHeaderFile,TDD Test Script,
-		,
-		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@783a35d8,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
-		Opens the call hierarchy for the selected element,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@38821ada,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.cdt.ui.cEditorScope,,,system)
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
-		Open a call hierarchy on the selected element,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ab40d2d,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-!SESSION 2021-03-09 09:08:21.785 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=1.8.0_51
-java.vendor=Oracle Corporation
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY org.eclipse.ui 2 0 2021-03-09 09:08:26.398
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 09:08:26.398
-!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
-
-!ENTRY org.eclipse.ui 2 0 2021-03-09 09:08:26.822
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 09:08:26.822
-!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
-
-!ENTRY org.eclipse.jface 2 0 2021-03-09 09:08:32.847
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 09:08:32.847
-!MESSAGE A conflict occurred for ALT+CTRL+S:
-Binding(ALT+CTRL+S,
-	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScript,Test Script Wizard,
-		,
-		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7469c73d,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
-Binding(ALT+CTRL+S,
-	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.sort.lines,Sort Lines,
-		Sort selected lines alphabetically,
-		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41dcfd0,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.cdt.ui.cEditorScope,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 09:08:32.847
-!MESSAGE A conflict occurred for ALT+CTRL+H:
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScriptUsingHeaderFile,TDD Test Script,
-		,
-		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fcb01f8,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
-		Opens the call hierarchy for the selected element,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@59845cb3,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.cdt.ui.cEditorScope,,,system)
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
-		Open a call hierarchy on the selected element,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63ee2891,
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18ce7872,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
 
-!ENTRY org.eclipse.cdt.core 1 0 2021-03-09 09:11:03.696
-!MESSAGE Indexed 'Tutorial 2' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!ENTRY org.eclipse.cdt.core 1 0 2021-08-05 09:18:41.875
+!MESSAGE Indexed 'Tutorial2' (2 sources, 50 headers) in 1.11 sec: 1,945 declarations; 2,028 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:13:09.093
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscriptio.elementlists.TestCaseElementList addGlobalDataInits
-Could not find a suitable location for adding the Initialise global data calls.
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:13:46.994
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscriptio.elementlists.TestCaseElementList addGlobalDataInits
-Could not find a suitable location for adding the Initialise global data calls.
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:13:53.908
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscriptio.elementlists.TestCaseElementList addGlobalDataInits
-Could not find a suitable location for adding the Initialise global data calls.
-!SESSION 2021-03-09 09:21:41.299 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=1.8.0_51
-java.vendor=Oracle Corporation
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY org.eclipse.ui 2 0 2021-03-09 09:21:55.447
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 09:21:55.447
-!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
-
-!ENTRY org.eclipse.ui 2 0 2021-03-09 09:21:56.040
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 09:21:56.040
-!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
-
-!ENTRY org.eclipse.jface 2 0 2021-03-09 09:22:02.075
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 09:22:02.075
-!MESSAGE A conflict occurred for ALT+CTRL+S:
-Binding(ALT+CTRL+S,
-	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScript,Test Script Wizard,
-		,
-		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9fd5dd0,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
-Binding(ALT+CTRL+S,
-	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.sort.lines,Sort Lines,
-		Sort selected lines alphabetically,
-		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e7b89b6,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.cdt.ui.cEditorScope,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 09:22:02.075
-!MESSAGE A conflict occurred for ALT+CTRL+H:
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScriptUsingHeaderFile,TDD Test Script,
-		,
-		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f65639e,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
-		Opens the call hierarchy for the selected element,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@673fdc28,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.cdt.ui.cEditorScope,,,system)
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
-		Open a call hierarchy on the selected element,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4cf1ec2,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.023
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_error:error
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.026
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_fatal:fatal error
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.028
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format:@F:@L: @S: @C - @M
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.030
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_info:info
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.032
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_warn:warning
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.629
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_error:error
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.631
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_fatal:fatal error
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.634
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format:@F:@L: @S: @C - @M
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.636
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_info:info
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:22:42.638
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_warn:warning
-
-!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2021-03-09 09:25:57.556
-!MESSAGE Internal Error
-!STACK 1
-org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
-	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1510)
-	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:118)
-	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:281)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:260)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:298)
-	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
-	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2292)
-	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2317)
-	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
-	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
-Contains: Resource already exists on disk: '/home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2'.
-!SUBENTRY 1 org.eclipse.core.resources 1 4 2021-03-09 09:25:57.557
-!MESSAGE Problems encountered while moving resources.
-!SUBENTRY 2 org.eclipse.core.resources 1 4 2021-03-09 09:25:57.558
-!MESSAGE Resource already exists on disk: '/home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2'.
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:04.533
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_error:error
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:04.535
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_fatal:fatal error
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:04.538
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format:@F:@L: @S: @C - @M
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:04.541
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_info:info
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:04.543
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_warn:warning
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:04.996
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_error:error
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:05.000
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_fatal:fatal error
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:05.002
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format:@F:@L: @S: @C - @M
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:05.004
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_info:info
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:28:05.009
-!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
-     --error_format_warn:warning
-!SESSION 2021-03-09 09:31:25.128 -----------------------------------------------
-eclipse.buildId=unknown
-java.version=1.8.0_51
-java.vendor=Oracle Corporation
-BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
-Command-line arguments:  -os linux -ws gtk -arch x86_64
-
-!ENTRY org.eclipse.ui 2 0 2021-03-09 09:31:29.793
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 09:31:29.793
-!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
-
-!ENTRY org.eclipse.ui 2 0 2021-03-09 09:31:30.281
-!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
-!SUBENTRY 1 org.eclipse.ui 2 0 2021-03-09 09:31:30.281
-!MESSAGE Commands should really have a category: plug-in='com.ipl.products.eclipse.cantpp.menu.ui', id='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject', categoryId='com.ipl.products.eclipse.cantpp.menu.ui.commands.createTestingProject'
-
-!ENTRY org.eclipse.jface 2 0 2021-03-09 09:31:37.583
-!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 09:31:37.595
-!MESSAGE A conflict occurred for ALT+CTRL+S:
-Binding(ALT+CTRL+S,
-	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScript,Test Script Wizard,
-		,
-		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e7b89b6,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
-Binding(ALT+CTRL+S,
-	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.c.sort.lines,Sort Lines,
-		Sort selected lines alphabetically,
-		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f65639e,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.cdt.ui.cEditorScope,,,system)
-!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-09 09:31:37.596
-!MESSAGE A conflict occurred for ALT+CTRL+H:
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(com.ipl.products.eclipse.cantpp.menu.ui.commands.generateTestScriptUsingHeaderFile,TDD Test Script,
-		,
-		Category(com.ipl.products.eclipse.cantpp.menu.ui.commands.category,Cantata,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@673fdc28,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	com.ipl.products.eclipse.cantpp.core.ui.CantataKeyBindingContextID,,,system)
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
-		Opens the call hierarchy for the selected element,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4cf1ec2,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.cdt.ui.cEditorScope,,,system)
-Binding(ALT+CTRL+H,
-	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
-		Open a call hierarchy on the selected element,
-		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
-		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16eb01d4,
-		,,true),null),
-	org.eclipse.ui.defaultAcceleratorConfiguration,
-	org.eclipse.ui.contexts.window,,,system)
-
-!ENTRY org.eclipse.cdt.core 1 0 2021-03-09 09:31:39.905
-!MESSAGE Indexed 'Tutorial 2' (2 sources, 50 headers) in 1.94 sec: 1,945 declarations; 2,028 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
-
-!ENTRY org.eclipse.cdt.core 1 0 2021-03-09 09:32:41.295
-!MESSAGE Indexed 'Tutorial2' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
-
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:48.897
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:02.675
 !MESSAGE SEVERE: com.qas.cantata.eclipse.testexplorer.data.fileinfodiffs.FileInfoDiffEngine createNewData
 Could not find CSI data for '/home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/TemperatureMonitor.c' in project 'Tutorial2'
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:49.155
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:02.939
 !MESSAGE SEVERE: com.qas.cantata.eclipse.testexplorer.data.fileinfodiffs.FileInfoDiffEngine createNewData
 Could not find CSI data for '/home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/TemperatureMonitor.c' in project 'Tutorial2'
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:50.454
-!MESSAGE SEVERE: com.qas.cantata.eclipse.testexplorer.ui.view.nodes.CtrFileNode calculateResult
-I/O error while reading .ctr file to calculate result: /home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:03.084
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpCallEntriesAndRelations
+Failed to match a CallEntry for stub/wrap called 'therm_getReading'
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:50.468
-!MESSAGE SEVERE: com.qas.cantata.eclipse.testexplorer.ui.view.nodes.CtrFileNode calculateResult
-I/O error while reading .ctr file to calculate result: /home/roboima/workspace/jenkins/CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:03.085
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpCallEntriesAndRelations
+Failed to match a CallEntry for stub/wrap called 'cool_increaseCooling'
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:50.623
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:03.085
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpCallEntriesAndRelations
+Failed to match a CallEntry for stub/wrap called 'sys_triggerCriticalShutdown'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:03.085
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpGlobalFunctions
+Failed to match a CallEntry object for global function 'float therm_getReading();'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:03.086
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpGlobalFunctions
+Failed to match a CallEntry object for global function 'void cool_increaseCooling(int increaseAmount);'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:03.086
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpGlobalFunctions
+Failed to match a CallEntry object for global function 'void sys_triggerCriticalShutdown();'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:03.086
+!MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.testscript.model.ast.TestScriptModel setUpGlobalFunctions
+Failed to match a CallEntry object for global function 'extern void monitorTemperature();'
+
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.423
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_error:error
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:50.638
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.426
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_fatal:fatal error
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:50.640
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.428
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format:@F:@L: @S: @C - @M
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:50.642
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.430
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_info:info
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:50.645
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.432
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_warn:warning
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:51.286
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.755
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_error:error
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:51.289
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.757
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_fatal:fatal error
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:51.293
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.759
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format:@F:@L: @S: @C - @M
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:51.296
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.761
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_info:info
 
-!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-03-09 09:32:51.299
+!ENTRY com.ipl.products.eclipse.cantpp.core 4 0 2021-08-05 09:19:42.763
 !MESSAGE SEVERE: com.ipl.products.eclipse.cantpp.core.CorePlugin writeConsoleMessage
      --error_format_warn:warning

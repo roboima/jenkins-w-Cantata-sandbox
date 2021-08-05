@@ -1,0 +1,154 @@
+Everything up-to-date
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../CantataPipeCMD/.metadata/.log
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.core/.log
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.core/Tutorial 2.language.settings.xml
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.core/Tutorial2.1615300361179.pdom
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.core/Tutorial2.language.settings.xml
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.ui/Tutorial 2.build.log
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.ui/dialog_settings.xml
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.ui/global-build.log
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/18/10bff9e1e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/1f/20bc6b68e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/2a/90105fe2e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/3/000212e2e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/32/d022d2a9e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/45/e065a1e1e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/57/700d6de8e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/5a/f0b12a9de180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/82/608f9f99e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/88/304214b6e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/8b/c0abf0ade180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/c/507f94f1e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/de/e0fd9a54e280001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/df/b07d2de6e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/e4/c0c428dfe180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/e5/f0bf3a93e180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/f5/50aecbe4e280001b1f0bda7c6bf53cb2
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.history/f6/e0d4f49ce180001b10fde8745d12b246
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.indexes/af/history.index
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.indexes/b6/21/33/history.index
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.indexes/properties.index
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.cdt.ui.prefs
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.core.prefs
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.launchbar.core.prefs
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.debug.core/.launches/Tutorial 2_Launch_config.launch
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.debug.core/.launches/Tutorial 2_test_TemperatureMonitor_Launch_config.launch
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2021/3/11/refactorings.history
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/.workspace/2021/3/11/refactorings.index
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.ui.cheatsheets/com.ipl.products.eclipse.cantpp.cheatsheets.stubsTutorial.xml
+	deleted:    ../CantataPipeCMD/.metadata/.plugins/org.eclipse.ui.cheatsheets/history.xml
+	modified:   ../CantataPipeCMD/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+	modified:   ../CantataPipeCMD/.metadata/version.ini
+	modified:   ../CantataPipeCMD/Tutorial2/.cproject
+	modified:   ../CantataPipeCMD/Tutorial2/.project
+	modified:   ../CantataPipeCMD/Tutorial2/.settings/language.settings.xml
+	modified:   ../CantataPipeCMD/Tutorial2/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/configuration/build.mk
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/configuration/build_defs.mk
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/configuration/custom.mk
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/configuration/mappings.dat
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/configuration/test_defs.mk
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_report.html
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_report.xml
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/results/test_summary.html
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/.metadata/.plugins/org.eclipse.cdt.core/.log
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/Makefile
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/make_errors.txt
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/make_log.dat
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/report_src.dat
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/.TestScriptData/TemperatureMonitor.dat
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.csi
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/filelist.lst
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/ipg.cop
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test.mk
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.cov
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.csi
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.exe
+	modified:   ../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
+	modified:   ../CantataPipeCMD/Tutorial2/Debug/TemperatureMonitor.o
+	modified:   ../CantataPipeCMD/Tutorial2/TemperatureMonitor.c
+	modified:   ../CantataPipeCMD/Tutorial2/TemperatureMonitor.h
+	modified:   ../CantataPipeCMD/Tutorial2/ipg.cop
+	modified:   ../CantataPipeCMD/Tutorial2/makefile.targets
+	deleted:    ../CantataPipeCMD/Tutorial5/.settings/language.settings.xml
+	deleted:    ../CantataPipeCMD/Tutorial5/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/configuration/build.mk
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/configuration/build_defs.mk
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/configuration/custom.mk
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/configuration/mappings.dat
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/configuration/test_defs.mk
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/configuration/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.mk
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/results/test_report.html
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/results/test_report.xml
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/results/test_summary.html
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/Makefile
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/make_errors.txt
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/make_log.dat
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/report_src.dat
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/.TestScriptData/TemperatureMonitor.dat
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.csi
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/TemperatureMonitor.o
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/filelist.lst
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/ipg.cop
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/test.mk
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.c
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.csi
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctg
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.ctr
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.exe
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.log
+	deleted:    ../CantataPipeCMD/Tutorial5/Cantata/tests/test_TemperatureMonitor/test_TemperatureMonitor.o
+	deleted:    ../CantataPipeCMD/Tutorial5/Debug/TemperatureMonitor.o
+	deleted:    ../CantataPipeCMD@tmp/durable-0d526e15/jenkins-log.txt
+	deleted:    ../CantataPipeCMD@tmp/durable-0d526e15/script.sh
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.cdt.core/Tutorial2.1628169520720.pdom
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.projects/Tutorial2/.location
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.resources/0.snap
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.debug.core/.launches/Tutorial2_Launch_config.launch
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.debug.core/.launches/Tutorial2_test_TemperatureMonitor_Launch_config.launch
+	../CantataPipeCMD/.metadata/.plugins/org.eclipse.jdt.launching/
+	../CantataPipeCMD/Tutorial2/.metadata/
+	../CantataPipeCMD/Tutorial2/Cantata/configuration/x86_64-Linux-5.4.0-59-generic-gcc7.5.0_c11.mk
+	../CantataPipeCMD/Tutorial2/Cantata/configuration/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.mk
+	../CantataPipeCMD/Tutorial2/Cantata/tests/TemperatureMonitor.csv
+	../CantataPipeCMD/Tutorial2/Cantata/tests/test_TemperatureMonitor.csv
+	../CantataPipeCMD/Tutorial2/Debug/TemperatureMonitor.csi
+	../CantataPipeCMD@tmp/durable-0b5ad12f/
+
+no changes added to commit (use "git add" and/or "git commit -a")

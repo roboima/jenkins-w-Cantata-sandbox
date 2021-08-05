@@ -1,0 +1,315 @@
+#**********************************************************************
+#* Cantata CPPSA v9.1       (c) 2020 QA Systems GmbH                  *
+#**********************************************************************
+#*            CSV File: /home/roboima/workspa...emperatureMonitor.csv *
+#*          Input File: /home/roboima/workspa.../TemperatureMonitor.c *
+#*             Created: Mon May  3 11:00:09 2021                      *
+#*        Command Line: cppi --stdI:/opt/qa_systems/cantata/inc --c   *
+#*                      --c11 --gnu_version:70500 --gnu_gcc_mode      *
+#*                      --output_for_gnu --no_alternative_tokens      *
+#*                      --no_allow_ats --bitfield_is_unsigned         *
+#*                      --gnu_builtin_varargs                         *
+#*                      --ignore_carriage_returns --char_is_signed    *
+#*                      --allow_cpp_comments --allow_dollars          *
+#*                      --expand_macros_in_compiler_pragmas           *
+#*                      --no_allow_hex_floating_point                 *
+#*                      --no_implicit_cast_of_bound_function_allowed  *
+#*                      --no_ignore_qualifier_mismatch                *
+#*                      --no_int_to_enum_assignment --no_altivec      *
+#*                      --no_predeclared_size_t                       *
+#*                      --no_relaxed_pointer_assignment               *
+#*                      --no_relaxed_const_initialisation --restrict  *
+#*                      --no_allow_sizeof_during_preprocess           *
+#*                      --recognise_common_stdlib_functions           *
+#*                      --allow_void_null_pointer_constant            *
+#*                      --allow_zero_size_arrays --float128           *
+#*                      --allow_truncating_conversion_in_explicit_poi *
+#*                      nter_casts --allow_binary_literals            *
+#*                      --multibyte_chars --error_format_error:error  *
+#*                      --error_format_fatal:fatal error              *
+#*                      --error_format:@F:@L: @S: @C - @M             *
+#*                      --error_format_info:info                      *
+#*                      --error_format_warn:warning --arith_rshift    *
+#*                      --sizeof_double:64 --sizeof_float:32          *
+#*                      --sizeof_int:32 --sizeof_short:16             *
+#*                      --sizeof_wchar_t:32 --sizeof_longlong:64      *
+#*                      --sizeof_long:64 --sizeof_pointer:64          *
+#*                      --sizeof_longdouble:128 --size_t_is:ulong     *
+#*                      --ptrdiff_t_is:long --align_longlong:8,8      *
+#*                      --align_wchar_t:4,4 --align_char:1,1          *
+#*                      --align_short:2,2 --align_pointer:8,8         *
+#*                      --align_int:4,4 --align_long:8,8              *
+#*                      --align_float:4,4 --align_double:8,8          *
+#*                      --align_longdouble:16,16 --bits_per_byte:8    *
+#*                      --little_endian --param_order_right_to_left   *
+#*                      -DCPP_TOOL_PORT_CONFIG="ports/x86_64-Linux-5. *
+#*                      4.0-65-generic-gcc7.5.0_c11.h"                *
+#*                      --stdI:/usr/lib/gcc/x86_64-linux-gnu/7/includ *
+#*                      e --stdI:/usr/local/include                   *
+#*                      --stdI:/usr/lib/gcc/x86_64-linux-gnu/7/includ *
+#*                      e-fixed --stdI:/usr/include/x86_64-linux-gnu  *
+#*                      --stdI:/usr/include                           *
+#*                      -DCANTPP_EXT_64BIT_MAX_INT                    *
+#*                      -DCANTPP_EXT_INTPTR_IS_LONG                   *
+#*                      -DCANTPP_INT_NO_TEMPNAM                       *
+#*                      -DCANTPP_LONGLONG_SUPPORTED                   *
+#*                      -DCANTPP_OUTPUT_FOR_GUI -D__IPL_CANTPP__      *
+#*                      -D__QAS_CANTATA__ --line_directives -W2       *
+#*                      --call_seq_code --analyse_system_headers      *
+#*                      --calc:*#*                                    *
+#*                      --cmd_line:"cppccd!IPL!-F!IPL!../../ipg.cop!I *
+#*                      PL!-F!IPL!test_TemperatureMonitor/ipg.cop!IPL *
+#*                      !--intdir:test_TemperatureMonitor/!IPL!--comp *
+#*                      :x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11!I *
+#*                      PL!--no_link!IPL!gcc!IPL!-c!IPL!-o!IPL!test_T *
+#*                      emperatureMonitor/TemperatureMonitor.o"       *
+#*                      --verbose                                     *
+#*                      -otest_TemperatureMonitor/TemperatureMonitor. *
+#*                      sm.c --ii_file                                *
+#*                      test_TemperatureMonitor/TemperatureMonitor.ii *
+#*                      --ti_file                                     *
+#*                      test_TemperatureMonitor/TemperatureMonitor.ti *
+#*                      --sm --analyse --sa                           *
+#*                      --static_info_file:test_TemperatureMonitor/   *
+#*                      ../../TemperatureMonitor.c                    *
+#**********************************************************************
+"UNIT", "../../TemperatureMonitor.c", "MACRO_DEFOBJ", 344
+"UNIT", "../../TemperatureMonitor.c", "MACRO_DEFFUNC", 11
+"UNIT", "../../TemperatureMonitor.c", "MACRO_USEOBJ", 6
+"UNIT", "../../TemperatureMonitor.c", "MACRO_USEFUNC", 0
+"UNIT", "../../TemperatureMonitor.c", "MACRO_USEROBJ", 0
+"UNIT", "../../TemperatureMonitor.c", "MACRO_USERFUNC", 0
+"UNIT", "../../TemperatureMonitor.c", "MACRO_VARIADIC", 0
+"UNIT", "../../TemperatureMonitor.c", "MACRO_SYSOBJ", 0
+"UNIT", "../../TemperatureMonitor.c", "MACRO_SYSFUNC", 0
+"UNIT", "../../TemperatureMonitor.c", "USERINC_INDIRECT", 0
+"UNIT", "../../TemperatureMonitor.c", "SYSINC_INDIRECT", 2
+"UNIT", "../../TemperatureMonitor.c", "INCLUDE_MAXNEST", 1
+"UNIT", "../../TemperatureMonitor.c", "LINE_SOURCE", 489
+"UNIT", "../../TemperatureMonitor.c", "LINE_COMMENT", 56
+"UNIT", "../../TemperatureMonitor.c", "LINE_CODE", 20
+"UNIT", "../../TemperatureMonitor.c", "LINE_BLANK", 403
+"UNIT", "../../TemperatureMonitor.c", "LINE_TAGCOMMENT", 0
+"UNIT", "../../TemperatureMonitor.c", "COMMENTS", 41
+"UNIT", "../../TemperatureMonitor.c", "C_COMMENTS", 41
+"UNIT", "../../TemperatureMonitor.c", "CPP_COMMENTS", 0
+"UNIT", "../../TemperatureMonitor.c", "DECL_BISINIT", 0
+"UNIT", "../../TemperatureMonitor.c", "DECL_BIEINIT", 0
+"UNIT", "../../TemperatureMonitor.c", "DECL_BISNI", 0
+"UNIT", "../../TemperatureMonitor.c", "DECL_BIENI", 0
+"UNIT", "../../TemperatureMonitor.c", "DECL_UDS", 0
+"UNIT", "../../TemperatureMonitor.c", "DECL_UDE", 0
+"UNIT", "../../TemperatureMonitor.c", "DECL_EXTFUNC", 4
+"UNIT", "../../TemperatureMonitor.c", "DECL_FUNCDEF", 1
+"UNIT", "../../TemperatureMonitor.c", "DECL_CLASS", 0
+"SOURCE", "../../TemperatureMonitor.c", "MACRO_DEFOBJ", 0
+"SOURCE", "../../TemperatureMonitor.c", "MACRO_DEFFUNC", 0
+"SOURCE", "../../TemperatureMonitor.c", "MACRO_USEOBJ", 5
+"SOURCE", "../../TemperatureMonitor.c", "MACRO_USEFUNC", 0
+"SOURCE", "../../TemperatureMonitor.c", "MACRO_VARIADIC", 0
+"SOURCE", "../../TemperatureMonitor.c", "INCLUDE_USER", 1
+"SOURCE", "../../TemperatureMonitor.c", "INCLUDE_SYS", 2
+"SOURCE", "../../TemperatureMonitor.c", "LINE_SOURCE", 19
+"SOURCE", "../../TemperatureMonitor.c", "LINE_COMMENT", 0
+"SOURCE", "../../TemperatureMonitor.c", "LINE_CODE", 16
+"SOURCE", "../../TemperatureMonitor.c", "LINE_BLANK", 3
+"SOURCE", "../../TemperatureMonitor.c", "LINE_TAGCOMMENT", 0
+"SOURCE", "../../TemperatureMonitor.c", "COMMENTS", 0
+"SOURCE", "../../TemperatureMonitor.c", "C_COMMENTS", 0
+"SOURCE", "../../TemperatureMonitor.c", "CPP_COMMENTS", 0
+"SOURCE", "../../TemperatureMonitor.c", "DECL_BISINIT", 0
+"SOURCE", "../../TemperatureMonitor.c", "DECL_BIEINIT", 0
+"SOURCE", "../../TemperatureMonitor.c", "DECL_BISNI", 0
+"SOURCE", "../../TemperatureMonitor.c", "DECL_BIENI", 0
+"SOURCE", "../../TemperatureMonitor.c", "DECL_UDS", 0
+"SOURCE", "../../TemperatureMonitor.c", "DECL_UDE", 0
+"SOURCE", "../../TemperatureMonitor.c", "DECL_EXTFUNC", 0
+"SOURCE", "../../TemperatureMonitor.c", "DECL_FUNCDEF", 1
+"SOURCE", "../../TemperatureMonitor.c", "DECL_CLASS", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "MACRO_DEFOBJ", 336
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "MACRO_DEFFUNC", 11
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "MACRO_USEOBJ", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "MACRO_USEFUNC", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "MACRO_VARIADIC", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "INCLUDE_USER", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "INCLUDE_SYS", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "LINE_SOURCE", 385
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "LINE_COMMENT", 19
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "LINE_CODE", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "LINE_BLANK", 364
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "LINE_TAGCOMMENT", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "COMMENTS", 8
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "C_COMMENTS", 8
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "CPP_COMMENTS", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_BISINIT", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_BIEINIT", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_BISNI", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_BIENI", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_UDS", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_UDE", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_EXTFUNC", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_FUNCDEF", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/ports/x86_64-Linux-5.4.0-65-generic-gcc7.5.0_c11.h", "DECL_CLASS", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "MACRO_DEFOBJ", 1
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "MACRO_DEFFUNC", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "MACRO_USEOBJ", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "MACRO_USEFUNC", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "MACRO_VARIADIC", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "INCLUDE_USER", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "INCLUDE_SYS", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "LINE_SOURCE", 31
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "LINE_COMMENT", 18
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "LINE_CODE", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "LINE_BLANK", 10
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "LINE_TAGCOMMENT", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "COMMENTS", 16
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "C_COMMENTS", 16
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "CPP_COMMENTS", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_BISINIT", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_BIEINIT", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_BISNI", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_BIENI", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_UDS", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_UDE", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_EXTFUNC", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_FUNCDEF", 0
+"SOURCE", "/opt/qa_systems/cantata/inc/cpprtti.h", "DECL_CLASS", 0
+"SOURCE", "../../TemperatureMonitor.h", "MACRO_DEFOBJ", 6
+"SOURCE", "../../TemperatureMonitor.h", "MACRO_DEFFUNC", 0
+"SOURCE", "../../TemperatureMonitor.h", "MACRO_USEOBJ", 0
+"SOURCE", "../../TemperatureMonitor.h", "MACRO_USEFUNC", 0
+"SOURCE", "../../TemperatureMonitor.h", "MACRO_VARIADIC", 0
+"SOURCE", "../../TemperatureMonitor.h", "INCLUDE_USER", 0
+"SOURCE", "../../TemperatureMonitor.h", "INCLUDE_SYS", 0
+"SOURCE", "../../TemperatureMonitor.h", "LINE_SOURCE", 18
+"SOURCE", "../../TemperatureMonitor.h", "LINE_COMMENT", 1
+"SOURCE", "../../TemperatureMonitor.h", "LINE_CODE", 4
+"SOURCE", "../../TemperatureMonitor.h", "LINE_BLANK", 12
+"SOURCE", "../../TemperatureMonitor.h", "LINE_TAGCOMMENT", 0
+"SOURCE", "../../TemperatureMonitor.h", "COMMENTS", 1
+"SOURCE", "../../TemperatureMonitor.h", "C_COMMENTS", 1
+"SOURCE", "../../TemperatureMonitor.h", "CPP_COMMENTS", 0
+"SOURCE", "../../TemperatureMonitor.h", "DECL_BISINIT", 0
+"SOURCE", "../../TemperatureMonitor.h", "DECL_BIEINIT", 0
+"SOURCE", "../../TemperatureMonitor.h", "DECL_BISNI", 0
+"SOURCE", "../../TemperatureMonitor.h", "DECL_BIENI", 0
+"SOURCE", "../../TemperatureMonitor.h", "DECL_UDS", 0
+"SOURCE", "../../TemperatureMonitor.h", "DECL_UDE", 0
+"SOURCE", "../../TemperatureMonitor.h", "DECL_EXTFUNC", 4
+"SOURCE", "../../TemperatureMonitor.h", "DECL_FUNCDEF", 0
+"SOURCE", "../../TemperatureMonitor.h", "DECL_CLASS", 0
+"FUNCTION", "monitorTemperature()", "CLASS", ""
+"FUNCTION", "monitorTemperature()", "NUM_METHODS", 0
+"FUNCTION", "monitorTemperature()", "HEADER_FILE", "../../TemperatureMonitor.h"
+"FUNCTION", "monitorTemperature()", "TRANSLATION_UNIT", "../../TemperatureMonitor.c"
+"FUNCTION", "monitorTemperature()", "SOURCE_FILE", "../../TemperatureMonitor.c"
+"FUNCTION", "monitorTemperature()", "LINE_SOURCE", 17
+"FUNCTION", "monitorTemperature()", "LINE_CODE", 16
+"FUNCTION", "monitorTemperature()", "LINE_COMMENT", 0
+"FUNCTION", "monitorTemperature()", "LINE_BLANK", 1
+"FUNCTION", "monitorTemperature()", "LINE_TAGCOMMENT", 0
+"FUNCTION", "monitorTemperature()", "UNIQ_PARAMTYPES", 0
+"FUNCTION", "monitorTemperature()", "STMT_EXPR", 3
+"FUNCTION", "monitorTemperature()", "STMT_FOR", 0
+"FUNCTION", "monitorTemperature()", "STMT_WHILE", 0
+"FUNCTION", "monitorTemperature()", "STMT_DO", 0
+"FUNCTION", "monitorTemperature()", "STMT_IF", 3
+"FUNCTION", "monitorTemperature()", "STMT_SWITCH", 0
+"FUNCTION", "monitorTemperature()", "STMT_RETURN", 0
+"FUNCTION", "monitorTemperature()", "STMT_GOTO", 0
+"FUNCTION", "monitorTemperature()", "STMT_FORBREAK", 0
+"FUNCTION", "monitorTemperature()", "STMT_WHILEBREAK", 0
+"FUNCTION", "monitorTemperature()", "STMT_DOBREAK", 0
+"FUNCTION", "monitorTemperature()", "STMT_SWITCHBREAK", 0
+"FUNCTION", "monitorTemperature()", "STMT_BREAK", 0
+"FUNCTION", "monitorTemperature()", "STMT_FORCONT", 0
+"FUNCTION", "monitorTemperature()", "STMT_WHILECONT", 0
+"FUNCTION", "monitorTemperature()", "STMT_DOCONT", 0
+"FUNCTION", "monitorTemperature()", "STMT_CONTINUE", 0
+"FUNCTION", "monitorTemperature()", "STMT_TRY", 0
+"FUNCTION", "monitorTemperature()", "STMT_CATCH", 0
+"FUNCTION", "monitorTemperature()", "STMT_THROW", 0
+"FUNCTION", "monitorTemperature()", "STMT_MSTRY", 0
+"FUNCTION", "monitorTemperature()", "STMT_MSCATCH", 0
+"FUNCTION", "monitorTemperature()", "STMT_ASM", 0
+"FUNCTION", "monitorTemperature()", "STMT_NULL", 0
+"FUNCTION", "monitorTemperature()", "STATEMENTS", 6
+"FUNCTION", "monitorTemperature()", "DECL_BISNI", 0
+"FUNCTION", "monitorTemperature()", "DECL_BIANI", 0
+"FUNCTION", "monitorTemperature()", "DECL_BIENI", 0
+"FUNCTION", "monitorTemperature()", "DECL_BISINIT", 0
+"FUNCTION", "monitorTemperature()", "DECL_BIAINIT", 1
+"FUNCTION", "monitorTemperature()", "DECL_UDS", 0
+"FUNCTION", "monitorTemperature()", "DECL_UDA", 0
+"FUNCTION", "monitorTemperature()", "DECL_UDE", 0
+"FUNCTION", "monitorTemperature()", "DECL_EXTFUNC", 0
+"FUNCTION", "monitorTemperature()", "DECL_CLASS", 0
+"FUNCTION", "monitorTemperature()", "OPER_DECN", 0
+"FUNCTION", "monitorTemperature()", "OPER_LOGINCOND", 0
+"FUNCTION", "monitorTemperature()", "OPER_LOGNOTCOND", 0
+"FUNCTION", "monitorTemperature()", "OPER_OVERLOAD", 0
+"FUNCTION", "monitorTemperature()", "OPER_OTHER", 6
+"FUNCTION", "monitorTemperature()", "NESTING_MAX", 3
+"FUNCTION", "monitorTemperature()", "NESTING_SUM", 9
+"FUNCTION", "monitorTemperature()", "NESTING_AVERAGE", 1.50000
+"FUNCTION", "monitorTemperature()", "LABEL_CASE", 0
+"FUNCTION", "monitorTemperature()", "LABEL_GOTOUSED", 0
+"FUNCTION", "monitorTemperature()", "LABEL_GOTOUNUSED", 0
+"FUNCTION", "monitorTemperature()", "CALL_VIRTUAL", 0
+"FUNCTION", "monitorTemperature()", "CALL_STATIC", 4
+"FUNCTION", "monitorTemperature()", "SWITCH_NODEF", 0
+"FUNCTION", "monitorTemperature()", "SWITCH_FALLTHRU", 0
+"FUNCTION", "monitorTemperature()", "UNREACHABLE", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_EXTVARS", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_PUBVARS", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_PROVARS", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_PRIVARS", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_OWNVARS", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_EXTCONST", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_PUBCONST", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_PROCONST", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_PRICONST", 0
+"FUNCTION", "monitorTemperature()", "UNIQREF_OWNCONST", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_EXTVARS", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_PUBVARS", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_PROVARS", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_PRIVARS", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_OWNVARS", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_EXTCONST", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_PUBCONST", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_PROCONST", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_PRICONST", 0
+"FUNCTION", "monitorTemperature()", "TOTALREF_OWNCONST", 0
+"FUNCTION", "monitorTemperature()", "PARAMS_REF", 0
+"FUNCTION", "monitorTemperature()", "PARAMS_CREF", 0
+"FUNCTION", "monitorTemperature()", "PARAMS_VAL", 0
+"FUNCTION", "monitorTemperature()", "PARAMS_MOD", 0
+"FUNCTION", "monitorTemperature()", "VOID_RETURN", 1
+"FUNCTION", "monitorTemperature()", "HAS_CONSTTHIS", 0
+"FUNCTION", "monitorTemperature()", "HAS_VARTHIS", 0
+"FUNCTION", "monitorTemperature()", "IS_INLINE", 0
+"FUNCTION", "monitorTemperature()", "HALSTEAD_UNIQOPTR", 7
+"FUNCTION", "monitorTemperature()", "HALSTEAD_UNIQOPND", 6
+"FUNCTION", "monitorTemperature()", "HALSTEAD_NUMOPTR", 19
+"FUNCTION", "monitorTemperature()", "HALSTEAD_NUMOPND", 8
+"FUNCTION", "monitorTemperature()", "HALSTEAD_PARAMS", 0
+"FUNCTION", "monitorTemperature()", "HALSTEAD_VOCAB", 13
+"FUNCTION", "monitorTemperature()", "HALSTEAD_LEN", 27
+"FUNCTION", "monitorTemperature()", "HALSTEAD_ESTLEN", 35.1613
+"FUNCTION", "monitorTemperature()", "HALSTEAD_VOLUME", 99.9119
+"FUNCTION", "monitorTemperature()", "HALSTEAD_POTVOL", 2.00000
+"FUNCTION", "monitorTemperature()", "HALSTEAD_BOUNDVOL", 2.00000
+"FUNCTION", "monitorTemperature()", "HALSTEAD_ESTERR", 0.0333040
+"FUNCTION", "monitorTemperature()", "HALSTEAD_PROGLEV", 0.0200176
+"FUNCTION", "monitorTemperature()", "HALSTEAD_ESTPROGLEV", 0.214286
+"FUNCTION", "monitorTemperature()", "HALSTEAD_CONTENT", 21.4097
+"FUNCTION", "monitorTemperature()", "HALSTEAD_EFFORT", 4991.19
+"FUNCTION", "monitorTemperature()", "HALSTEAD_PURITY", 1.30227
+"FUNCTION", "monitorTemperature()", "HALSTEAD_TIME", 277.288
+"FUNCTION", "monitorTemperature()", "HALSTEAD_DIFF", 49.9559
+"FUNCTION", "monitorTemperature()", "HALSTEAD_LANGLEV", 0.0400353
+"FUNCTION", "monitorTemperature()", "MCCABE", 4
+"FUNCTION", "monitorTemperature()", "MYERS_LOWER", 4
+"FUNCTION", "monitorTemperature()", "MYERS_UPPER", 4
+"FUNCTION", "monitorTemperature()", "HANSEN_CYC", 4
+"FUNCTION", "monitorTemperature()", "HANSEN_OPER", 6
