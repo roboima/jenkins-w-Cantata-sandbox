@@ -1,0 +1,25 @@
+===========================================================================
+= Cantata AutoTest Generation Report                                      =
+= (c) 2019 QA Systems GmbH                                                =
+=-------------------------------------------------------------------------=
+= Generation Date: Aug 5, 2021 9:21 AM                                    =
+===========================================================================
+
+5 source files were skipped.
+Files fully tested:
+  - NONE
+
+Files not fully tested:
+  - NONE
+
+Files not tested:
+- specs.c (0 seconds)
+  - No CSI data
+- specs.cpp (0 seconds)
+  - No CSI data
+- specs.c (0 seconds)
+  - No CSI data
+- specs.cpp (0 seconds)
+  - No CSI data
+- TemperatureMonitor.c (0 seconds)
+  - No CSI data
